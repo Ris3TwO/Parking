@@ -29,10 +29,45 @@ public class Main extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jButton36 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         blackTabbedPane1 = new org.matrix.BlackTabbedPane();
-        customPanel1 = new plugins.CustomPanel();
+        jPanel2 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jButton29 = new javax.swing.JButton();
+        jButton30 = new javax.swing.JButton();
+        jButton31 = new javax.swing.JButton();
+        jButton32 = new javax.swing.JButton();
+        jButton33 = new javax.swing.JButton();
+        jButton34 = new javax.swing.JButton();
+        jButton35 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
@@ -51,7 +86,19 @@ public class Main extends javax.swing.JFrame {
         jLabel1.setText("Control Vehicular | @Empresa@");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 15, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 50));
+        jButton36.setFont(new java.awt.Font("Earth", 1, 12)); // NOI18N
+        jButton36.setText("X");
+        jButton36.setBorder(null);
+        jButton36.setBorderPainted(false);
+        jButton36.setContentAreaFilled(false);
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 10, 30, 30));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 844, 50));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
@@ -61,16 +108,220 @@ public class Main extends javax.swing.JFrame {
         blackTabbedPane1.setTabPlacement(javax.swing.JTabbedPane.LEFT);
         blackTabbedPane1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
 
-        customPanel1.setOpaque(false);
-        customPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle_inverse.png"))); // NOI18N
         jButton1.setBorder(null);
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
-        customPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 30, -1, 60));
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 238, -1, -1));
 
-        blackTabbedPane1.addTab("Panel de Ingreso", new javax.swing.ImageIcon(getClass().getResource("/images/005-parking-sign.png")), customPanel1); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton2.setBorder(null);
+        jButton2.setBorderPainted(false);
+        jButton2.setContentAreaFilled(false);
+        jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton3.setBorder(null);
+        jButton3.setBorderPainted(false);
+        jButton3.setContentAreaFilled(false);
+        jPanel2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton4.setBorder(null);
+        jButton4.setBorderPainted(false);
+        jButton4.setContentAreaFilled(false);
+        jPanel2.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, -1, -1));
+
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton5.setBorder(null);
+        jButton5.setBorderPainted(false);
+        jButton5.setContentAreaFilled(false);
+        jPanel2.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, -1, -1));
+
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton6.setBorder(null);
+        jButton6.setBorderPainted(false);
+        jButton6.setContentAreaFilled(false);
+        jPanel2.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, -1, -1));
+
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton7.setBorder(null);
+        jButton7.setBorderPainted(false);
+        jButton7.setContentAreaFilled(false);
+        jPanel2.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 10, -1, -1));
+
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton8.setBorder(null);
+        jButton8.setBorderPainted(false);
+        jButton8.setContentAreaFilled(false);
+        jPanel2.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, -1, -1));
+
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton9.setBorder(null);
+        jButton9.setBorderPainted(false);
+        jButton9.setContentAreaFilled(false);
+        jPanel2.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 10, -1, -1));
+
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area.png"))); // NOI18N
+        jButton10.setBorder(null);
+        jButton10.setBorderPainted(false);
+        jButton10.setContentAreaFilled(false);
+        jPanel2.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 10, -1, -1));
+
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Left.png"))); // NOI18N
+        jButton11.setBorder(null);
+        jButton11.setBorderPainted(false);
+        jButton11.setContentAreaFilled(false);
+        jPanel2.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, -1, -1));
+
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Left.png"))); // NOI18N
+        jButton12.setBorder(null);
+        jButton12.setBorderPainted(false);
+        jButton12.setContentAreaFilled(false);
+        jPanel2.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, -1, -1));
+
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Left.png"))); // NOI18N
+        jButton13.setBorder(null);
+        jButton13.setBorderPainted(false);
+        jButton13.setContentAreaFilled(false);
+        jPanel2.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 230, -1, -1));
+
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Left.png"))); // NOI18N
+        jButton14.setBorder(null);
+        jButton14.setBorderPainted(false);
+        jButton14.setContentAreaFilled(false);
+        jPanel2.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, -1, -1));
+
+        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Left.png"))); // NOI18N
+        jButton15.setBorder(null);
+        jButton15.setBorderPainted(false);
+        jButton15.setContentAreaFilled(false);
+        jPanel2.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 370, -1, -1));
+
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton16.setBorder(null);
+        jButton16.setBorderPainted(false);
+        jButton16.setContentAreaFilled(false);
+        jPanel2.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, -1, -1));
+
+        jButton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton17.setBorder(null);
+        jButton17.setBorderPainted(false);
+        jButton17.setContentAreaFilled(false);
+        jPanel2.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 440, -1, -1));
+
+        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton18.setBorder(null);
+        jButton18.setBorderPainted(false);
+        jButton18.setContentAreaFilled(false);
+        jPanel2.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 440, -1, -1));
+
+        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton19.setBorder(null);
+        jButton19.setBorderPainted(false);
+        jButton19.setContentAreaFilled(false);
+        jPanel2.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 440, -1, -1));
+
+        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton20.setBorder(null);
+        jButton20.setBorderPainted(false);
+        jButton20.setContentAreaFilled(false);
+        jPanel2.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 440, -1, -1));
+
+        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton21.setBorder(null);
+        jButton21.setBorderPainted(false);
+        jButton21.setContentAreaFilled(false);
+        jPanel2.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 440, -1, -1));
+
+        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton22.setBorder(null);
+        jButton22.setBorderPainted(false);
+        jButton22.setContentAreaFilled(false);
+        jPanel2.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 440, -1, -1));
+
+        jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton23.setBorder(null);
+        jButton23.setBorderPainted(false);
+        jButton23.setContentAreaFilled(false);
+        jPanel2.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 440, -1, -1));
+
+        jButton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area - Down.png"))); // NOI18N
+        jButton24.setBorder(null);
+        jButton24.setBorderPainted(false);
+        jButton24.setContentAreaFilled(false);
+        jPanel2.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 440, -1, -1));
+
+        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle.png"))); // NOI18N
+        jButton25.setBorder(null);
+        jButton25.setBorderPainted(false);
+        jButton25.setContentAreaFilled(false);
+        jPanel2.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 160, -1, -1));
+
+        jButton26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle.png"))); // NOI18N
+        jButton26.setBorder(null);
+        jButton26.setBorderPainted(false);
+        jButton26.setContentAreaFilled(false);
+        jPanel2.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, -1, -1));
+
+        jButton27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle.png"))); // NOI18N
+        jButton27.setBorder(null);
+        jButton27.setBorderPainted(false);
+        jButton27.setContentAreaFilled(false);
+        jPanel2.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 160, -1, -1));
+
+        jButton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle.png"))); // NOI18N
+        jButton28.setBorder(null);
+        jButton28.setBorderPainted(false);
+        jButton28.setContentAreaFilled(false);
+        jPanel2.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, -1, -1));
+
+        jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle.png"))); // NOI18N
+        jButton29.setBorder(null);
+        jButton29.setBorderPainted(false);
+        jButton29.setContentAreaFilled(false);
+        jPanel2.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 160, -1, -1));
+
+        jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle.png"))); // NOI18N
+        jButton30.setBorder(null);
+        jButton30.setBorderPainted(false);
+        jButton30.setContentAreaFilled(false);
+        jPanel2.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 160, -1, -1));
+
+        jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle_inverse.png"))); // NOI18N
+        jButton31.setBorder(null);
+        jButton31.setBorderPainted(false);
+        jButton31.setContentAreaFilled(false);
+        jPanel2.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 238, -1, -1));
+
+        jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle_inverse.png"))); // NOI18N
+        jButton32.setBorder(null);
+        jButton32.setBorderPainted(false);
+        jButton32.setContentAreaFilled(false);
+        jPanel2.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 238, -1, -1));
+
+        jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle_inverse.png"))); // NOI18N
+        jButton33.setBorder(null);
+        jButton33.setBorderPainted(false);
+        jButton33.setContentAreaFilled(false);
+        jPanel2.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 238, -1, -1));
+
+        jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle_inverse.png"))); // NOI18N
+        jButton34.setBorder(null);
+        jButton34.setBorderPainted(false);
+        jButton34.setContentAreaFilled(false);
+        jPanel2.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 238, -1, -1));
+
+        jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/001-motorcycle_inverse.png"))); // NOI18N
+        jButton35.setBorder(null);
+        jButton35.setBorderPainted(false);
+        jButton35.setContentAreaFilled(false);
+        jPanel2.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 238, -1, -1));
+
+        blackTabbedPane1.addTab("Panel de Ingreso", new javax.swing.ImageIcon(getClass().getResource("/images/005-parking-sign.png")), jPanel2); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -78,11 +329,11 @@ public class Main extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 534, Short.MAX_VALUE)
+            .addGap(0, 644, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 465, Short.MAX_VALUE)
+            .addGap(0, 515, Short.MAX_VALUE)
         );
 
         blackTabbedPane1.addTab("Consultar Datos", new javax.swing.ImageIcon(getClass().getResource("/images/046-car.png")), jPanel3); // NOI18N
@@ -91,11 +342,11 @@ public class Main extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 534, Short.MAX_VALUE)
+            .addGap(0, 644, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 465, Short.MAX_VALUE)
+            .addGap(0, 515, Short.MAX_VALUE)
         );
 
         blackTabbedPane1.addTab("Agregar Datos", new javax.swing.ImageIcon(getClass().getResource("/images/044-parking-ticket.png")), jPanel5); // NOI18N
@@ -104,11 +355,11 @@ public class Main extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 534, Short.MAX_VALUE)
+            .addGap(0, 644, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 465, Short.MAX_VALUE)
+            .addGap(0, 515, Short.MAX_VALUE)
         );
 
         blackTabbedPane1.addTab("<html><center>Historial de<br/> Ingreso</center></html>", new javax.swing.ImageIcon(getClass().getResource("/images/043-parking-4.png")), jPanel6); // NOI18N
@@ -119,21 +370,25 @@ public class Main extends javax.swing.JFrame {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 534, Short.MAX_VALUE)
+            .addGap(0, 644, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 465, Short.MAX_VALUE)
+            .addGap(0, 515, Short.MAX_VALUE)
         );
 
         blackTabbedPane1.addTab("Visitantes", new javax.swing.ImageIcon(getClass().getResource("/images/031-key.png")), jPanel7); // NOI18N
 
-        jPanel4.add(blackTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 12, 730, 470));
+        jPanel4.add(blackTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 12, 840, 520));
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 740, 490));
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 844, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_jButton36ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -172,10 +427,45 @@ public class Main extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private org.matrix.BlackTabbedPane blackTabbedPane1;
-    private plugins.CustomPanel customPanel1;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
+    private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
+    private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
