@@ -5,6 +5,8 @@
  */
 package mvc;
 
+import views.Main;
+
 /**
  *
  * @author Ris3TwO
@@ -15,7 +17,9 @@ public class home {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Main view = new Main();
+        view.setVisible(true);
+        view.setLocationRelativeTo(null);
     }
     
 }
