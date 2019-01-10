@@ -32,11 +32,13 @@ public class Main extends javax.swing.JFrame {
         jButton36 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         blackTabbedPane1 = new org.matrix.BlackTabbedPane();
-        customPanel1 = new plugins.CustomPanel();
         jPanel3 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
+        customPanel1 = new plugins.CustomPanel();
+        jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -72,21 +74,6 @@ public class Main extends javax.swing.JFrame {
         blackTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
         blackTabbedPane1.setTabPlacement(javax.swing.JTabbedPane.LEFT);
         blackTabbedPane1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-
-        customPanel1.setOpaque(false);
-
-        javax.swing.GroupLayout customPanel1Layout = new javax.swing.GroupLayout(customPanel1);
-        customPanel1.setLayout(customPanel1Layout);
-        customPanel1Layout.setHorizontalGroup(
-            customPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 959, Short.MAX_VALUE)
-        );
-        customPanel1Layout.setVerticalGroup(
-            customPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 615, Short.MAX_VALUE)
-        );
-
-        blackTabbedPane1.addTab("Panel de Ingreso", new javax.swing.ImageIcon(getClass().getResource("/images/005-parking-sign.png")), customPanel1); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -149,6 +136,45 @@ public class Main extends javax.swing.JFrame {
 
         blackTabbedPane1.addTab("Visitantes", new javax.swing.ImageIcon(getClass().getResource("/images/031-key.png")), jPanel7); // NOI18N
 
+        customPanel1.setOpaque(false);
+
+        jButton1.setBackground(new java.awt.Color(102, 102, 102));
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\stalker\\Desktop\\49579719_236670707272904_1847736768015630336_n.png")); // NOI18N
+        jButton1.setBorder(null);
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
+
+        jLabel2.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel2.setText("105-A");
+
+        javax.swing.GroupLayout customPanel1Layout = new javax.swing.GroupLayout(customPanel1);
+        customPanel1.setLayout(customPanel1Layout);
+        customPanel1Layout.setHorizontalGroup(
+            customPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(customPanel1Layout.createSequentialGroup()
+                .addGap(123, 123, 123)
+                .addGroup(customPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(customPanel1Layout.createSequentialGroup()
+                        .addGap(8, 8, 8)
+                        .addComponent(jLabel2)))
+                .addContainerGap(800, Short.MAX_VALUE))
+        );
+        customPanel1Layout.setVerticalGroup(
+            customPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(customPanel1Layout.createSequentialGroup()
+                .addGap(12, 12, 12)
+                .addComponent(jLabel2)
+                .addGap(18, 18, 18)
+                .addComponent(jButton1)
+                .addContainerGap(514, Short.MAX_VALUE))
+        );
+
+        blackTabbedPane1.addTab("Panel de Ingreso", new javax.swing.ImageIcon(getClass().getResource("/images/005-parking-sign.png")), customPanel1); // NOI18N
+
         jPanel4.add(blackTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 12, 1140, 620));
 
         getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 1140, 630));
@@ -159,6 +185,10 @@ public class Main extends javax.swing.JFrame {
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+      
+    }//GEN-LAST:event_jButton1MouseClicked
 
     /**
      * @param args the command line arguments
@@ -198,8 +228,10 @@ public class Main extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private org.matrix.BlackTabbedPane blackTabbedPane1;
     private plugins.CustomPanel customPanel1;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton36;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
