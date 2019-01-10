@@ -27,29 +27,142 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        pnlTitle = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton36 = new javax.swing.JButton();
-        jPanel4 = new javax.swing.JPanel();
-        blackTabbedPane1 = new org.matrix.BlackTabbedPane();
-        customPanel1 = new plugins.CustomPanel();
-        jPanel3 = new javax.swing.JPanel();
-        jPanel5 = new javax.swing.JPanel();
-        jPanel6 = new javax.swing.JPanel();
-        jPanel7 = new javax.swing.JPanel();
+        pnlMain = new javax.swing.JPanel();
+        tbpMain = new org.matrix.BlackTabbedPane();
+        pnlIngreso = new javax.swing.JPanel();
+        tbdPaneVehicles = new org.matrix.BlackTabbedPane();
+        pnlAuto = new plugins.CustomPanelAuto();
+        jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jButton10 = new javax.swing.JButton();
+        jLabel11 = new javax.swing.JLabel();
+        jButton11 = new javax.swing.JButton();
+        jLabel12 = new javax.swing.JLabel();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jButton16 = new javax.swing.JButton();
+        jLabel17 = new javax.swing.JLabel();
+        jButton17 = new javax.swing.JButton();
+        jLabel18 = new javax.swing.JLabel();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jButton22 = new javax.swing.JButton();
+        jLabel23 = new javax.swing.JLabel();
+        jButton23 = new javax.swing.JButton();
+        jLabel24 = new javax.swing.JLabel();
+        jButton24 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
+        jLabel27 = new javax.swing.JLabel();
+        jButton27 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jButton29 = new javax.swing.JButton();
+        jButton30 = new javax.swing.JButton();
+        jLabel30 = new javax.swing.JLabel();
+        jButton31 = new javax.swing.JButton();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jButton32 = new javax.swing.JButton();
+        jLabel33 = new javax.swing.JLabel();
+        jButton33 = new javax.swing.JButton();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jButton34 = new javax.swing.JButton();
+        jButton35 = new javax.swing.JButton();
+        jButton37 = new javax.swing.JButton();
+        jButton38 = new javax.swing.JButton();
+        jButton39 = new javax.swing.JButton();
+        jButton40 = new javax.swing.JButton();
+        jButton41 = new javax.swing.JButton();
+        jButton42 = new javax.swing.JButton();
+        jButton43 = new javax.swing.JButton();
+        jButton44 = new javax.swing.JButton();
+        jButton45 = new javax.swing.JButton();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jButton46 = new javax.swing.JButton();
+        jButton47 = new javax.swing.JButton();
+        jLabel46 = new javax.swing.JLabel();
+        jButton49 = new javax.swing.JButton();
+        jLabel48 = new javax.swing.JLabel();
+        jButton50 = new javax.swing.JButton();
+        jLabel49 = new javax.swing.JLabel();
+        jLabel50 = new javax.swing.JLabel();
+        jButton51 = new javax.swing.JButton();
+        jButton52 = new javax.swing.JButton();
+        jLabel51 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jButton53 = new javax.swing.JButton();
+        pnlConsulta = new javax.swing.JPanel();
+        pnlAgregarDatos = new javax.swing.JPanel();
+        pnlHistorialdeIngreso = new javax.swing.JPanel();
+        jLabel47 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jFormattedTextField2 = new javax.swing.JFormattedTextField();
+        jFormattedTextField1 = new javax.swing.JFormattedTextField();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        pnlVisitantes = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        pnlTitle.setBackground(new java.awt.Color(255, 255, 255));
+        pnlTitle.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        pnlTitle.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 153, 0));
         jLabel1.setText("Control Vehicular | @Empresa@");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 15, -1, -1));
+        pnlTitle.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 14, -1, -1));
 
         jButton36.setFont(new java.awt.Font("Earth", 1, 12)); // NOI18N
         jButton36.setText("X");
@@ -61,97 +174,815 @@ public class Main extends javax.swing.JFrame {
                 jButton36ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 10, 30, 30));
+        pnlTitle.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 10, 30, 30));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1140, 50));
+        getContentPane().add(pnlTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1140, 50));
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
-        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        pnlMain.setBackground(new java.awt.Color(255, 255, 255));
+        pnlMain.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
+        pnlMain.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        blackTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
-        blackTabbedPane1.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-        blackTabbedPane1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        tbpMain.setBackground(new java.awt.Color(255, 255, 255));
+        tbpMain.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        tbpMain.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
 
-        customPanel1.setOpaque(false);
+        pnlIngreso.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout customPanel1Layout = new javax.swing.GroupLayout(customPanel1);
-        customPanel1.setLayout(customPanel1Layout);
-        customPanel1Layout.setHorizontalGroup(
-            customPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        pnlAuto.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        pnlAuto.setMinimumSize(new java.awt.Dimension(980, 620));
+        pnlAuto.setOpaque(false);
+        pnlAuto.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.setBorder(null);
+        jButton1.setBorderPainted(false);
+        jButton1.setContentAreaFilled(false);
+        jButton1.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(366, 50, -1, -1));
+
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setLabelFor(jButton1);
+        jLabel2.setText("12");
+        pnlAuto.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 20, -1, -1));
+
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setLabelFor(jButton1);
+        jLabel3.setText("11");
+        pnlAuto.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 20, -1, -1));
+
+        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setLabelFor(jButton1);
+        jLabel4.setText("10");
+        pnlAuto.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(258, 20, -1, -1));
+
+        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setLabelFor(jButton1);
+        jLabel5.setText("09");
+        pnlAuto.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 20, -1, -1));
+
+        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setLabelFor(jButton1);
+        jLabel6.setText("08");
+        pnlAuto.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 20, -1, -1));
+
+        jButton6.setBorder(null);
+        jButton6.setBorderPainted(false);
+        jButton6.setContentAreaFilled(false);
+        jButton6.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(116, 50, -1, -1));
+
+        jButton7.setBorder(null);
+        jButton7.setBorderPainted(false);
+        jButton7.setContentAreaFilled(false);
+        jButton7.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 50, -1, -1));
+
+        jButton8.setBorder(null);
+        jButton8.setBorderPainted(false);
+        jButton8.setContentAreaFilled(false);
+        jButton8.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 50, -1, -1));
+
+        jButton9.setBorder(null);
+        jButton9.setBorderPainted(false);
+        jButton9.setContentAreaFilled(false);
+        jButton9.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 50, -1, -1));
+
+        jLabel7.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setLabelFor(jButton1);
+        jLabel7.setText("07");
+        pnlAuto.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(448, 20, -1, -1));
+
+        jButton3.setBorder(null);
+        jButton3.setBorderPainted(false);
+        jButton3.setContentAreaFilled(false);
+        jButton3.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 50, -1, -1));
+
+        jButton4.setBorder(null);
+        jButton4.setBorderPainted(false);
+        jButton4.setContentAreaFilled(false);
+        jButton4.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 50, -1, -1));
+
+        jLabel8.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel8.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setLabelFor(jButton1);
+        jLabel8.setText("06");
+        pnlAuto.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 20, -1, -1));
+
+        jButton5.setBorder(null);
+        jButton5.setBorderPainted(false);
+        jButton5.setContentAreaFilled(false);
+        jButton5.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(552, 50, -1, -1));
+
+        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setLabelFor(jButton1);
+        jLabel9.setText("05");
+        pnlAuto.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(572, 20, -1, -1));
+
+        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setLabelFor(jButton1);
+        jLabel10.setText("04");
+        pnlAuto.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 20, -1, -1));
+
+        jButton10.setBorder(null);
+        jButton10.setBorderPainted(false);
+        jButton10.setContentAreaFilled(false);
+        jButton10.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(618, 50, -1, -1));
+
+        jLabel11.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel11.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setLabelFor(jButton1);
+        jLabel11.setText("03");
+        pnlAuto.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(696, 20, -1, -1));
+
+        jButton11.setBorder(null);
+        jButton11.setBorderPainted(false);
+        jButton11.setContentAreaFilled(false);
+        jButton11.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 50, -1, -1));
+
+        jLabel12.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel12.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setLabelFor(jButton1);
+        jLabel12.setText("02");
+        pnlAuto.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(758, 20, -1, -1));
+
+        jButton12.setBorder(null);
+        jButton12.setBorderPainted(false);
+        jButton12.setContentAreaFilled(false);
+        jButton12.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 50, -1, -1));
+
+        jButton13.setBorder(null);
+        jButton13.setBorderPainted(false);
+        jButton13.setContentAreaFilled(false);
+        jButton13.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(802, 50, -1, -1));
+
+        jLabel13.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel13.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setLabelFor(jButton1);
+        jLabel13.setText("01");
+        pnlAuto.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 20, -1, -1));
+
+        jLabel14.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel14.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setLabelFor(jButton1);
+        jLabel14.setText("50");
+        pnlAuto.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 328, -1, -1));
+
+        jButton14.setBorder(null);
+        jButton14.setBorderPainted(false);
+        jButton14.setContentAreaFilled(false);
+        jButton14.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(802, 360, -1, -1));
+
+        jButton15.setBorder(null);
+        jButton15.setBorderPainted(false);
+        jButton15.setContentAreaFilled(false);
+        jButton15.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 360, -1, -1));
+
+        jLabel15.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel15.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setLabelFor(jButton1);
+        jLabel15.setText("49");
+        pnlAuto.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(758, 328, -1, -1));
+
+        jLabel16.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel16.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setLabelFor(jButton1);
+        jLabel16.setText("48");
+        pnlAuto.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(696, 328, -1, -1));
+
+        jButton16.setBorder(null);
+        jButton16.setBorderPainted(false);
+        jButton16.setContentAreaFilled(false);
+        jButton16.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 360, -1, -1));
+
+        jLabel17.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel17.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setLabelFor(jButton1);
+        jLabel17.setText("47");
+        pnlAuto.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 328, -1, -1));
+
+        jButton17.setBorder(null);
+        jButton17.setBorderPainted(false);
+        jButton17.setContentAreaFilled(false);
+        jButton17.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(618, 360, -1, -1));
+
+        jLabel18.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel18.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel18.setLabelFor(jButton1);
+        jLabel18.setText("46");
+        pnlAuto.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(572, 328, -1, -1));
+
+        jButton18.setBorder(null);
+        jButton18.setBorderPainted(false);
+        jButton18.setContentAreaFilled(false);
+        jButton18.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(552, 360, -1, -1));
+
+        jButton19.setBorder(null);
+        jButton19.setBorderPainted(false);
+        jButton19.setContentAreaFilled(false);
+        jButton19.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 360, -1, -1));
+
+        jLabel19.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel19.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setLabelFor(jButton1);
+        jLabel19.setText("45");
+        pnlAuto.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 328, -1, -1));
+
+        jLabel20.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setLabelFor(jButton1);
+        jLabel20.setText("44");
+        pnlAuto.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(448, 328, -1, -1));
+
+        jButton20.setBorder(null);
+        jButton20.setBorderPainted(false);
+        jButton20.setContentAreaFilled(false);
+        jButton20.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, -1, -1));
+
+        jButton21.setBorder(null);
+        jButton21.setBorderPainted(false);
+        jButton21.setContentAreaFilled(false);
+        jButton21.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(364, 360, -1, -1));
+
+        jLabel21.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel21.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setLabelFor(jButton1);
+        jLabel21.setText("43");
+        pnlAuto.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 328, -1, -1));
+
+        jLabel22.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel22.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setLabelFor(jButton1);
+        jLabel22.setText("42");
+        pnlAuto.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 328, -1, -1));
+
+        jButton22.setBorder(null);
+        jButton22.setBorderPainted(false);
+        jButton22.setContentAreaFilled(false);
+        jButton22.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 360, -1, -1));
+
+        jLabel23.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel23.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel23.setLabelFor(jButton1);
+        jLabel23.setText("41");
+        pnlAuto.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(258, 328, -1, -1));
+
+        jButton23.setBorder(null);
+        jButton23.setBorderPainted(false);
+        jButton23.setContentAreaFilled(false);
+        jButton23.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 360, -1, -1));
+
+        jLabel24.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel24.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setLabelFor(jButton1);
+        jLabel24.setText("40");
+        pnlAuto.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(258, 250, -1, -1));
+
+        jButton24.setBorder(null);
+        jButton24.setBorderPainted(false);
+        jButton24.setContentAreaFilled(false);
+        jButton24.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 180, -1, -1));
+
+        jButton25.setBorder(null);
+        jButton25.setBorderPainted(false);
+        jButton25.setContentAreaFilled(false);
+        jButton25.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 180, -1, -1));
+
+        jLabel25.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel25.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel25.setLabelFor(jButton1);
+        jLabel25.setText("39");
+        pnlAuto.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 250, -1, -1));
+
+        jLabel26.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel26.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setLabelFor(jButton1);
+        jLabel26.setText("38");
+        pnlAuto.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 250, -1, -1));
+
+        jButton26.setBorder(null);
+        jButton26.setBorderPainted(false);
+        jButton26.setContentAreaFilled(false);
+        jButton26.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(366, 180, -1, -1));
+
+        jLabel27.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel27.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel27.setLabelFor(jButton1);
+        jLabel27.setText("37");
+        pnlAuto.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(448, 250, -1, -1));
+
+        jButton27.setBorder(null);
+        jButton27.setBorderPainted(false);
+        jButton27.setContentAreaFilled(false);
+        jButton27.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 180, -1, -1));
+
+        jButton28.setBorder(null);
+        jButton28.setBorderPainted(false);
+        jButton28.setContentAreaFilled(false);
+        jButton28.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 180, -1, -1));
+
+        jLabel28.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel28.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setLabelFor(jButton1);
+        jLabel28.setText("36");
+        pnlAuto.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 250, -1, -1));
+
+        jLabel29.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel29.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel29.setLabelFor(jButton1);
+        jLabel29.setText("35");
+        pnlAuto.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(572, 250, -1, -1));
+
+        jButton29.setBorder(null);
+        jButton29.setBorderPainted(false);
+        jButton29.setContentAreaFilled(false);
+        jButton29.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(552, 180, -1, -1));
+
+        jButton30.setBorder(null);
+        jButton30.setBorderPainted(false);
+        jButton30.setContentAreaFilled(false);
+        jButton30.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(618, 180, -1, -1));
+
+        jLabel30.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel30.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel30.setLabelFor(jButton1);
+        jLabel30.setText("34");
+        pnlAuto.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 250, -1, -1));
+
+        jButton31.setBorder(null);
+        jButton31.setBorderPainted(false);
+        jButton31.setContentAreaFilled(false);
+        jButton31.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 180, -1, -1));
+
+        jLabel31.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel31.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel31.setLabelFor(jButton1);
+        jLabel31.setText("33");
+        pnlAuto.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(696, 250, -1, -1));
+
+        jLabel32.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel32.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel32.setLabelFor(jButton1);
+        jLabel32.setText("32");
+        pnlAuto.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(758, 250, -1, -1));
+
+        jButton32.setBorder(null);
+        jButton32.setBorderPainted(false);
+        jButton32.setContentAreaFilled(false);
+        jButton32.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 180, -1, -1));
+
+        jLabel33.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel33.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel33.setLabelFor(jButton1);
+        jLabel33.setText("31");
+        pnlAuto.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 250, -1, -1));
+
+        jButton33.setBorder(null);
+        jButton33.setBorderPainted(false);
+        jButton33.setContentAreaFilled(false);
+        jButton33.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(802, 180, -1, -1));
+
+        jLabel34.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel34.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel34.setLabelFor(jButton1);
+        jLabel34.setText("30");
+        pnlAuto.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 570, -1, -1));
+
+        jLabel35.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel35.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel35.setLabelFor(jButton1);
+        jLabel35.setText("29");
+        pnlAuto.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(758, 570, -1, -1));
+
+        jLabel36.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel36.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel36.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel36.setLabelFor(jButton1);
+        jLabel36.setText("28");
+        pnlAuto.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(696, 570, -1, -1));
+
+        jLabel37.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel37.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel37.setLabelFor(jButton1);
+        jLabel37.setText("27");
+        pnlAuto.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(632, 570, -1, -1));
+
+        jLabel38.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel38.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel38.setLabelFor(jButton1);
+        jLabel38.setText("26");
+        pnlAuto.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(572, 570, -1, -1));
+
+        jLabel39.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel39.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel39.setLabelFor(jButton1);
+        jLabel39.setText("25");
+        pnlAuto.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 570, -1, -1));
+
+        jLabel40.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel40.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel40.setLabelFor(jButton1);
+        jLabel40.setText("24");
+        pnlAuto.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(448, 570, -1, -1));
+
+        jLabel41.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel41.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel41.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel41.setLabelFor(jButton1);
+        jLabel41.setText("23");
+        pnlAuto.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 570, -1, -1));
+
+        jLabel42.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel42.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel42.setLabelFor(jButton1);
+        jLabel42.setText("22");
+        pnlAuto.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 570, -1, -1));
+
+        jLabel43.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel43.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setLabelFor(jButton1);
+        jLabel43.setText("21");
+        pnlAuto.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(258, 570, -1, -1));
+
+        jButton34.setBorder(null);
+        jButton34.setBorderPainted(false);
+        jButton34.setContentAreaFilled(false);
+        jButton34.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 500, -1, -1));
+
+        jButton35.setBorder(null);
+        jButton35.setBorderPainted(false);
+        jButton35.setContentAreaFilled(false);
+        jButton35.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 500, -1, -1));
+
+        jButton37.setBorder(null);
+        jButton37.setBorderPainted(false);
+        jButton37.setContentAreaFilled(false);
+        jButton37.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 500, -1, -1));
+
+        jButton38.setBorder(null);
+        jButton38.setBorderPainted(false);
+        jButton38.setContentAreaFilled(false);
+        jButton38.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 500, -1, -1));
+
+        jButton39.setBorder(null);
+        jButton39.setBorderPainted(false);
+        jButton39.setContentAreaFilled(false);
+        jButton39.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, -1, -1));
+
+        jButton40.setBorder(null);
+        jButton40.setBorderPainted(false);
+        jButton40.setContentAreaFilled(false);
+        jButton40.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 500, -1, -1));
+
+        jButton41.setBorder(null);
+        jButton41.setBorderPainted(false);
+        jButton41.setContentAreaFilled(false);
+        jButton41.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 500, -1, -1));
+
+        jButton42.setBorder(null);
+        jButton42.setBorderPainted(false);
+        jButton42.setContentAreaFilled(false);
+        jButton42.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 500, -1, -1));
+
+        jButton43.setBorder(null);
+        jButton43.setBorderPainted(false);
+        jButton43.setContentAreaFilled(false);
+        jButton43.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton43, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, -1, -1));
+
+        jButton44.setBorder(null);
+        jButton44.setBorderPainted(false);
+        jButton44.setContentAreaFilled(false);
+        jButton44.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton44, new org.netbeans.lib.awtextra.AbsoluteConstraints(802, 500, -1, -1));
+
+        jButton45.setBorder(null);
+        jButton45.setBorderPainted(false);
+        jButton45.setContentAreaFilled(false);
+        jButton45.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 500, -1, -1));
+
+        jLabel44.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel44.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel44.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel44.setLabelFor(jButton1);
+        jLabel44.setText("20");
+        pnlAuto.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 570, -1, -1));
+
+        jLabel45.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel45.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel45.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel45.setLabelFor(jButton1);
+        jLabel45.setText("19");
+        pnlAuto.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 570, -1, -1));
+
+        jButton46.setBorder(null);
+        jButton46.setBorderPainted(false);
+        jButton46.setContentAreaFilled(false);
+        jButton46.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(112, 500, -1, -1));
+
+        jButton47.setBorder(null);
+        jButton47.setBorderPainted(false);
+        jButton47.setContentAreaFilled(false);
+        jButton47.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton47, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 435, -1, 60));
+
+        jLabel46.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel46.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel46.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel46.setLabelFor(jButton1);
+        jLabel46.setText("18");
+        pnlAuto.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 450, -1, -1));
+
+        jButton49.setBorder(null);
+        jButton49.setBorderPainted(false);
+        jButton49.setContentAreaFilled(false);
+        jButton49.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton49, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 372, -1, 60));
+
+        jLabel48.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel48.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel48.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel48.setLabelFor(jButton1);
+        jLabel48.setText("17");
+        pnlAuto.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 390, -1, -1));
+
+        jButton50.setBorder(null);
+        jButton50.setBorderPainted(false);
+        jButton50.setContentAreaFilled(false);
+        jButton50.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 310, -1, 60));
+
+        jLabel49.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel49.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel49.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel49.setLabelFor(jButton1);
+        jLabel49.setText("16");
+        pnlAuto.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 326, -1, -1));
+
+        jLabel50.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel50.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel50.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel50.setLabelFor(jButton1);
+        jLabel50.setText("15");
+        pnlAuto.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 266, -1, -1));
+
+        jButton51.setBorder(null);
+        jButton51.setBorderPainted(false);
+        jButton51.setContentAreaFilled(false);
+        jButton51.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton51, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 246, -1, 60));
+
+        jButton52.setBorder(null);
+        jButton52.setBorderPainted(false);
+        jButton52.setContentAreaFilled(false);
+        jButton52.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 122, -1, 60));
+
+        jLabel51.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel51.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel51.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel51.setLabelFor(jButton1);
+        jLabel51.setText("14");
+        pnlAuto.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 202, -1, -1));
+
+        jLabel52.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel52.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel52.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel52.setLabelFor(jButton1);
+        jLabel52.setText("13");
+        pnlAuto.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 140, -1, -1));
+
+        jButton53.setBorder(null);
+        jButton53.setBorderPainted(false);
+        jButton53.setContentAreaFilled(false);
+        jButton53.setPreferredSize(new java.awt.Dimension(58, 65));
+        pnlAuto.add(jButton53, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 184, -1, 60));
+
+        tbdPaneVehicles.addTab("Automóviles", new javax.swing.ImageIcon(getClass().getResource("/images/042-parking-area-tab.png")), pnlAuto); // NOI18N
+
+        pnlIngreso.add(tbdPaneVehicles, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 664));
+
+        tbpMain.addTab("Panel de Ingreso", new javax.swing.ImageIcon(getClass().getResource("/images/005-parking-sign.png")), pnlIngreso); // NOI18N
+
+        pnlConsulta.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout pnlConsultaLayout = new javax.swing.GroupLayout(pnlConsulta);
+        pnlConsulta.setLayout(pnlConsultaLayout);
+        pnlConsultaLayout.setHorizontalGroup(
+            pnlConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 959, Short.MAX_VALUE)
         );
-        customPanel1Layout.setVerticalGroup(
-            customPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 615, Short.MAX_VALUE)
+        pnlConsultaLayout.setVerticalGroup(
+            pnlConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 665, Short.MAX_VALUE)
         );
 
-        blackTabbedPane1.addTab("Panel de Ingreso", new javax.swing.ImageIcon(getClass().getResource("/images/005-parking-sign.png")), customPanel1); // NOI18N
+        tbpMain.addTab("Consultar Datos", new javax.swing.ImageIcon(getClass().getResource("/images/046-car.png")), pnlConsulta); // NOI18N
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        pnlAgregarDatos.setBackground(new java.awt.Color(255, 255, 255));
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout pnlAgregarDatosLayout = new javax.swing.GroupLayout(pnlAgregarDatos);
+        pnlAgregarDatos.setLayout(pnlAgregarDatosLayout);
+        pnlAgregarDatosLayout.setHorizontalGroup(
+            pnlAgregarDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 959, Short.MAX_VALUE)
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 615, Short.MAX_VALUE)
+        pnlAgregarDatosLayout.setVerticalGroup(
+            pnlAgregarDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 665, Short.MAX_VALUE)
         );
 
-        blackTabbedPane1.addTab("Consultar Datos", new javax.swing.ImageIcon(getClass().getResource("/images/046-car.png")), jPanel3); // NOI18N
+        tbpMain.addTab("Agregar Datos", new javax.swing.ImageIcon(getClass().getResource("/images/044-parking-ticket.png")), pnlAgregarDatos); // NOI18N
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        pnlHistorialdeIngreso.setBackground(new java.awt.Color(255, 255, 255));
+        pnlHistorialdeIngreso.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jLabel47.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel47.setForeground(new java.awt.Color(153, 153, 0));
+        jLabel47.setText("Historial de Ingreso");
+        pnlHistorialdeIngreso.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, -1, -1));
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "> Filtrado <", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Century Gothic", 1, 14))); // NOI18N
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jRadioButton1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jRadioButton1.setText("Del");
+        jPanel1.add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
+
+        jFormattedTextField2.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(java.text.DateFormat.getDateInstance(java.text.DateFormat.SHORT))));
+        jFormattedTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jFormattedTextField2.setText("01/01/2019");
+        jFormattedTextField2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jPanel1.add(jFormattedTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 70, 100, -1));
+
+        jFormattedTextField1.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(java.text.DateFormat.getDateInstance(java.text.DateFormat.SHORT))));
+        jFormattedTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jFormattedTextField1.setText("01/01/2019");
+        jFormattedTextField1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jPanel1.add(jFormattedTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 70, 100, -1));
+
+        jRadioButton2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jRadioButton2.setText("Por Rango");
+        jPanel1.add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
+
+        jLabel53.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel53.setText("Desde:");
+        jPanel1.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, -1, -1));
+
+        jLabel54.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel54.setText("Hasta:");
+        jPanel1.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 70, -1, -1));
+
+        jComboBox1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Día", "Día Anterior", "Mes", "Mes Anterior" }));
+        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 30, 90, -1));
+
+        pnlHistorialdeIngreso.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, 800, 120));
+
+        jTable1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
+
+        pnlHistorialdeIngreso.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, 800, -1));
+
+        tbpMain.addTab("<html><center>Historial de<br/> Ingreso</center></html>", new javax.swing.ImageIcon(getClass().getResource("/images/043-parking-4.png")), pnlHistorialdeIngreso); // NOI18N
+
+        pnlVisitantes.setBackground(new java.awt.Color(255, 255, 255));
+        pnlVisitantes.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+
+        javax.swing.GroupLayout pnlVisitantesLayout = new javax.swing.GroupLayout(pnlVisitantes);
+        pnlVisitantes.setLayout(pnlVisitantesLayout);
+        pnlVisitantesLayout.setHorizontalGroup(
+            pnlVisitantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 959, Short.MAX_VALUE)
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 615, Short.MAX_VALUE)
+        pnlVisitantesLayout.setVerticalGroup(
+            pnlVisitantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 665, Short.MAX_VALUE)
         );
 
-        blackTabbedPane1.addTab("Agregar Datos", new javax.swing.ImageIcon(getClass().getResource("/images/044-parking-ticket.png")), jPanel5); // NOI18N
+        tbpMain.addTab("Visitantes", new javax.swing.ImageIcon(getClass().getResource("/images/031-key.png")), pnlVisitantes); // NOI18N
 
-        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
+        pnlMain.add(tbpMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 12, 1140, 670));
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 959, Short.MAX_VALUE)
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 615, Short.MAX_VALUE)
-        );
-
-        blackTabbedPane1.addTab("<html><center>Historial de<br/> Ingreso</center></html>", new javax.swing.ImageIcon(getClass().getResource("/images/043-parking-4.png")), jPanel6); // NOI18N
-
-        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel7.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 959, Short.MAX_VALUE)
-        );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 615, Short.MAX_VALUE)
-        );
-
-        blackTabbedPane1.addTab("Visitantes", new javax.swing.ImageIcon(getClass().getResource("/images/031-key.png")), jPanel7); // NOI18N
-
-        jPanel4.add(blackTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 12, 1140, 620));
-
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 1140, 630));
+        getContentPane().add(pnlMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 1140, 684));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -196,15 +1027,128 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private org.matrix.BlackTabbedPane blackTabbedPane1;
-    private plugins.CustomPanel customPanel1;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
+    private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
     private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButton37;
+    private javax.swing.JButton jButton38;
+    private javax.swing.JButton jButton39;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton40;
+    private javax.swing.JButton jButton41;
+    private javax.swing.JButton jButton42;
+    private javax.swing.JButton jButton43;
+    private javax.swing.JButton jButton44;
+    private javax.swing.JButton jButton45;
+    private javax.swing.JButton jButton46;
+    private javax.swing.JButton jButton47;
+    private javax.swing.JButton jButton49;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton50;
+    private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
+    private javax.swing.JButton jButton53;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JFormattedTextField jFormattedTextField1;
+    private javax.swing.JFormattedTextField jFormattedTextField2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JPanel pnlAgregarDatos;
+    private plugins.CustomPanelAuto pnlAuto;
+    private javax.swing.JPanel pnlConsulta;
+    private javax.swing.JPanel pnlHistorialdeIngreso;
+    private javax.swing.JPanel pnlIngreso;
+    private javax.swing.JPanel pnlMain;
+    private javax.swing.JPanel pnlTitle;
+    private javax.swing.JPanel pnlVisitantes;
+    private org.matrix.BlackTabbedPane tbdPaneVehicles;
+    private org.matrix.BlackTabbedPane tbpMain;
     // End of variables declaration//GEN-END:variables
 }

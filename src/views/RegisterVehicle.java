@@ -29,23 +29,22 @@ public class RegisterVehicle extends javax.swing.JDialog {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        lblTitulo = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel2 = new javax.swing.JLabel();
-        txtUsuario = new javax.swing.JTextField();
-        lblUsuario = new javax.swing.JLabel();
+        txtPlaca = new javax.swing.JTextField();
+        lblPlaca = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
-        lblUsuario1 = new javax.swing.JLabel();
-        txtUsuario1 = new javax.swing.JTextField();
+        lblNumeroApto = new javax.swing.JLabel();
+        txtApartamento = new javax.swing.JTextField();
         jSeparator3 = new javax.swing.JSeparator();
-        lblUsuario2 = new javax.swing.JLabel();
-        txtUsuario2 = new javax.swing.JTextField();
+        lblNombreVisitante = new javax.swing.JLabel();
+        txtNombreVisitante = new javax.swing.JTextField();
         jSeparator4 = new javax.swing.JSeparator();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        lblNombreVisitanteIcono = new javax.swing.JLabel();
+        lblPlacaIcono = new javax.swing.JLabel();
+        lblNumeroAptoIcono = new javax.swing.JLabel();
+        btnCancelar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
@@ -54,11 +53,11 @@ public class RegisterVehicle extends javax.swing.JDialog {
         jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 153, 0));
-        jLabel1.setText("Registro de Vehículo");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
+        lblTitulo.setBackground(new java.awt.Color(0, 0, 0));
+        lblTitulo.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        lblTitulo.setForeground(new java.awt.Color(153, 153, 0));
+        lblTitulo.setText("Registro de Vehículo");
+        jPanel1.add(lblTitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
         jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 430, 10));
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
@@ -67,62 +66,68 @@ public class RegisterVehicle extends javax.swing.JDialog {
         jLabel2.setText("PUESTO DE ESTACIONAMIENTO Nº");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
-        txtUsuario.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
-        txtUsuario.setForeground(new java.awt.Color(153, 153, 153));
-        txtUsuario.setBorder(null);
-        jPanel1.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, 180, 30));
+        txtPlaca.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
+        txtPlaca.setForeground(new java.awt.Color(153, 153, 153));
+        txtPlaca.setBorder(null);
+        jPanel1.add(txtPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, 180, 30));
 
-        lblUsuario.setBackground(new java.awt.Color(0, 0, 0));
-        lblUsuario.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblUsuario.setForeground(new java.awt.Color(0, 0, 0));
-        lblUsuario.setText("Placa del Vehículo:");
-        jPanel1.add(lblUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, -1));
+        lblPlaca.setBackground(new java.awt.Color(0, 0, 0));
+        lblPlaca.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        lblPlaca.setForeground(new java.awt.Color(0, 0, 0));
+        lblPlaca.setText("Placa del Vehículo:");
+        jPanel1.add(lblPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, -1));
 
         jSeparator2.setOpaque(true);
         jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 230, 10));
 
-        lblUsuario1.setBackground(new java.awt.Color(0, 0, 0));
-        lblUsuario1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblUsuario1.setForeground(new java.awt.Color(0, 0, 0));
-        lblUsuario1.setText("Número de Apartamento:");
-        jPanel1.add(lblUsuario1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, 20));
+        lblNumeroApto.setBackground(new java.awt.Color(0, 0, 0));
+        lblNumeroApto.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        lblNumeroApto.setForeground(new java.awt.Color(0, 0, 0));
+        lblNumeroApto.setText("Número de Apartamento:");
+        jPanel1.add(lblNumeroApto, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, 20));
 
-        txtUsuario1.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
-        txtUsuario1.setForeground(new java.awt.Color(153, 153, 153));
-        txtUsuario1.setBorder(null);
-        jPanel1.add(txtUsuario1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, 180, 30));
+        txtApartamento.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
+        txtApartamento.setForeground(new java.awt.Color(153, 153, 153));
+        txtApartamento.setBorder(null);
+        jPanel1.add(txtApartamento, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, 180, 30));
 
         jSeparator3.setOpaque(true);
         jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 230, 10));
 
-        lblUsuario2.setBackground(new java.awt.Color(0, 0, 0));
-        lblUsuario2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblUsuario2.setForeground(new java.awt.Color(0, 0, 0));
-        lblUsuario2.setText("Nombre del Visitante:");
-        jPanel1.add(lblUsuario2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 280, -1, -1));
+        lblNombreVisitante.setBackground(new java.awt.Color(0, 0, 0));
+        lblNombreVisitante.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        lblNombreVisitante.setForeground(new java.awt.Color(0, 0, 0));
+        lblNombreVisitante.setText("Nombre del Visitante:");
+        jPanel1.add(lblNombreVisitante, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 280, -1, -1));
 
-        txtUsuario2.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
-        txtUsuario2.setForeground(new java.awt.Color(153, 153, 153));
-        txtUsuario2.setBorder(null);
-        jPanel1.add(txtUsuario2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 310, 180, 30));
+        txtNombreVisitante.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
+        txtNombreVisitante.setForeground(new java.awt.Color(153, 153, 153));
+        txtNombreVisitante.setBorder(null);
+        jPanel1.add(txtNombreVisitante, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 310, 180, 30));
 
         jSeparator4.setOpaque(true);
         jPanel1.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 350, 230, 10));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/026-parking-card-1.png"))); // NOI18N
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        lblNombreVisitanteIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/026-parking-card-1.png"))); // NOI18N
+        jPanel1.add(lblNombreVisitanteIcono, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/039-key-1.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, -1, -1));
+        lblPlacaIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/039-key-1.png"))); // NOI18N
+        jPanel1.add(lblPlacaIcono, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, -1, -1));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/021-placeholder.png"))); // NOI18N
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, -1, -1));
+        lblNumeroAptoIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/021-placeholder.png"))); // NOI18N
+        jPanel1.add(lblNumeroAptoIcono, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, -1, -1));
 
-        jButton1.setText("Guardar");
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 390, -1, -1));
-
-        jButton2.setText("Cancelar");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 390, -1, -1));
+        btnCancelar.setBackground(new java.awt.Color(102, 102, 102));
+        btnCancelar.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btnCancelar.setForeground(new java.awt.Color(0, 0, 0));
+        btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 1.png"))); // NOI18N
+        btnCancelar.setText("Cancelar");
+        btnCancelar.setBorder(null);
+        btnCancelar.setBorderPainted(false);
+        btnCancelar.setContentAreaFilled(false);
+        btnCancelar.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 2.png"))); // NOI18N
+        btnCancelar.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 2.png"))); // NOI18N
+        jPanel1.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, 150, 40));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -181,23 +186,22 @@ public class RegisterVehicle extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton btnCancelar;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
-    private javax.swing.JLabel lblUsuario;
-    private javax.swing.JLabel lblUsuario1;
-    private javax.swing.JLabel lblUsuario2;
-    private javax.swing.JTextField txtUsuario;
-    private javax.swing.JTextField txtUsuario1;
-    private javax.swing.JTextField txtUsuario2;
+    private javax.swing.JLabel lblNombreVisitante;
+    private javax.swing.JLabel lblNombreVisitanteIcono;
+    private javax.swing.JLabel lblNumeroApto;
+    private javax.swing.JLabel lblNumeroAptoIcono;
+    private javax.swing.JLabel lblPlaca;
+    private javax.swing.JLabel lblPlacaIcono;
+    private javax.swing.JLabel lblTitulo;
+    private javax.swing.JTextField txtApartamento;
+    private javax.swing.JTextField txtNombreVisitante;
+    private javax.swing.JTextField txtPlaca;
     // End of variables declaration//GEN-END:variables
 }
