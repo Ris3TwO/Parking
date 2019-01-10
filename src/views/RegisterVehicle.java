@@ -54,16 +54,16 @@ public class RegisterVehicle extends javax.swing.JDialog {
         jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setBackground(new java.awt.Color(204, 153, 0));
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(204, 153, 0));
+        jLabel1.setForeground(new java.awt.Color(153, 153, 0));
         jLabel1.setText("Registro de Vehículo");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
         jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 430, 10));
 
-        jLabel2.setBackground(new java.awt.Color(204, 153, 0));
+        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(204, 153, 0));
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("PUESTO DE ESTACIONAMIENTO Nº");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
@@ -72,18 +72,18 @@ public class RegisterVehicle extends javax.swing.JDialog {
         txtUsuario.setBorder(null);
         jPanel1.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, 180, 30));
 
-        lblUsuario.setBackground(new java.awt.Color(204, 153, 0));
+        lblUsuario.setBackground(new java.awt.Color(0, 0, 0));
         lblUsuario.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblUsuario.setForeground(new java.awt.Color(204, 153, 0));
+        lblUsuario.setForeground(new java.awt.Color(0, 0, 0));
         lblUsuario.setText("Placa del Vehículo:");
         jPanel1.add(lblUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, -1));
 
         jSeparator2.setOpaque(true);
         jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 230, 10));
 
-        lblUsuario1.setBackground(new java.awt.Color(204, 153, 0));
+        lblUsuario1.setBackground(new java.awt.Color(0, 0, 0));
         lblUsuario1.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblUsuario1.setForeground(new java.awt.Color(204, 153, 0));
+        lblUsuario1.setForeground(new java.awt.Color(0, 0, 0));
         lblUsuario1.setText("Número de Apartamento:");
         jPanel1.add(lblUsuario1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, 20));
 
@@ -95,9 +95,9 @@ public class RegisterVehicle extends javax.swing.JDialog {
         jSeparator3.setOpaque(true);
         jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 230, 10));
 
-        lblUsuario2.setBackground(new java.awt.Color(204, 153, 0));
+        lblUsuario2.setBackground(new java.awt.Color(0, 0, 0));
         lblUsuario2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblUsuario2.setForeground(new java.awt.Color(204, 153, 0));
+        lblUsuario2.setForeground(new java.awt.Color(0, 0, 0));
         lblUsuario2.setText("Nombre del Visitante:");
         jPanel1.add(lblUsuario2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 280, -1, -1));
 
