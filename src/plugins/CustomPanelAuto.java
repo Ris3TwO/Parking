@@ -15,7 +15,7 @@ import javax.swing.*;
  *
  * @author Ris3TwO
  */
-public class CustomPanel extends JPanel{ 
+public class CustomPanelAuto extends JPanel{ 
     //Creo una URL personalizada obteniendo la imagen
     private URL url = getClass().getResource("/images/background.jpg");
     //Creo una nueva propiedad imagen y le asigno la que obtengo por URL
