@@ -5,6 +5,7 @@
  */
 package mvc;
 
+import controlador.button_control;
 import views.Main;
 
 /**
@@ -20,6 +21,7 @@ public class home {
         Main view = new Main();
         view.setVisible(true);
         view.setLocationRelativeTo(null);
+         button_control control = new button_control(view);
     }
     
 }
