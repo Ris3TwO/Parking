@@ -165,10 +165,12 @@ public class Main extends javax.swing.JFrame {
         pnlTitle.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 14, -1, -1));
 
         jButton36.setFont(new java.awt.Font("Earth", 1, 12)); // NOI18N
-        jButton36.setText("X");
+        jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply_32px.png"))); // NOI18N
         jButton36.setBorder(null);
         jButton36.setBorderPainted(false);
         jButton36.setContentAreaFilled(false);
+        jButton36.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply._32px.png"))); // NOI18N
+        jButton36.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply._32px.png"))); // NOI18N
         jButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton36ActionPerformed(evt);
