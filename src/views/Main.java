@@ -188,6 +188,8 @@ public class Main extends javax.swing.JFrame {
 
         pnlIngreso.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        tbdPaneVehicles.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+
         pnlAuto.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         pnlAuto.setMinimumSize(new java.awt.Dimension(980, 620));
         pnlAuto.setOpaque(false);
@@ -905,7 +907,7 @@ public class Main extends javax.swing.JFrame {
         jFormattedTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jFormattedTextField1.setText("01/01/2019");
         jFormattedTextField1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        jPanel1.add(jFormattedTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 70, 100, -1));
+        jPanel1.add(jFormattedTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 70, 100, -1));
 
         jRadioButton2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jRadioButton2.setText("Por Rango");
@@ -917,7 +919,7 @@ public class Main extends javax.swing.JFrame {
 
         jLabel54.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel54.setText("Hasta:");
-        jPanel1.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 70, -1, -1));
+        jPanel1.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 70, -1, -1));
 
         jComboBox1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Día", "Día Anterior", "Mes", "Mes Anterior" }));
