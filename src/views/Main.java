@@ -885,7 +885,7 @@ public class Main extends javax.swing.JFrame {
         lblHistorial.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         lblHistorial.setForeground(new java.awt.Color(153, 153, 0));
         lblHistorial.setText("Historial General");
-        pnlHistorialdeIngreso.add(lblHistorial, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, -1, -1));
+        pnlHistorialdeIngreso.add(lblHistorial, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, -1, -1));
 
         pnlFiltrado.setBackground(new java.awt.Color(255, 255, 255));
         pnlFiltrado.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "> Filtrado <", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Century Gothic", 1, 14))); // NOI18N
