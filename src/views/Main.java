@@ -5,6 +5,15 @@
  */
 package views;
 
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFormattedTextField;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTable;
+import org.matrix.BlackTabbedPane;
+
 /**
  *
  * @author Ris3TwO
@@ -29,7 +38,7 @@ public class Main extends javax.swing.JFrame {
 
         pnlTitle = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jButton36 = new javax.swing.JButton();
+        btnSalir = new javax.swing.JButton();
         pnlMain = new javax.swing.JPanel();
         tbpMain = new org.matrix.BlackTabbedPane();
         pnlIngreso = new javax.swing.JPanel();
@@ -164,19 +173,14 @@ public class Main extends javax.swing.JFrame {
         jLabel1.setText("Control Vehicular | @Empresa@");
         pnlTitle.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 14, -1, -1));
 
-        jButton36.setFont(new java.awt.Font("Earth", 1, 12)); // NOI18N
-        jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply_32px.png"))); // NOI18N
-        jButton36.setBorder(null);
-        jButton36.setBorderPainted(false);
-        jButton36.setContentAreaFilled(false);
-        jButton36.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply._32px.png"))); // NOI18N
-        jButton36.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply._32px.png"))); // NOI18N
-        jButton36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton36ActionPerformed(evt);
-            }
-        });
-        pnlTitle.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 10, 30, 30));
+        btnSalir.setFont(new java.awt.Font("Earth", 1, 12)); // NOI18N
+        btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply_32px.png"))); // NOI18N
+        btnSalir.setBorder(null);
+        btnSalir.setBorderPainted(false);
+        btnSalir.setContentAreaFilled(false);
+        btnSalir.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply._32px.png"))); // NOI18N
+        btnSalir.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8_Multiply._32px.png"))); // NOI18N
+        pnlTitle.add(btnSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 10, 30, 30));
 
         getContentPane().add(pnlTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1140, 50));
 
@@ -990,10 +994,6 @@ public class Main extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_jButton36ActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -1080,8 +1080,8 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton btnPuesto7;
     private javax.swing.JButton btnPuesto8;
     private javax.swing.JButton btnPuesto9;
+    private javax.swing.JButton btnSalir;
     private javax.swing.JComboBox<String> cmbDia;
-    private javax.swing.JButton jButton36;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
@@ -1154,4 +1154,885 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JFormattedTextField txtFechaFinal;
     private javax.swing.JFormattedTextField txtFechaInicial;
     // End of variables declaration//GEN-END:variables
+
+    public JButton getBtnPuesto1() {
+        return btnPuesto1;
+    }
+
+    public void setBtnPuesto1(JButton btnPuesto1) {
+        this.btnPuesto1 = btnPuesto1;
+    }
+
+    public JButton getBtnPuesto10() {
+        return btnPuesto10;
+    }
+
+    public void setBtnPuesto10(JButton btnPuesto10) {
+        this.btnPuesto10 = btnPuesto10;
+    }
+
+    public JButton getBtnPuesto11() {
+        return btnPuesto11;
+    }
+
+    public void setBtnPuesto11(JButton btnPuesto11) {
+        this.btnPuesto11 = btnPuesto11;
+    }
+
+    public JButton getBtnPuesto12() {
+        return btnPuesto12;
+    }
+
+    public void setBtnPuesto12(JButton btnPuesto12) {
+        this.btnPuesto12 = btnPuesto12;
+    }
+
+    public JButton getBtnPuesto13() {
+        return btnPuesto13;
+    }
+
+    public void setBtnPuesto13(JButton btnPuesto13) {
+        this.btnPuesto13 = btnPuesto13;
+    }
+
+    public JButton getBtnPuesto14() {
+        return btnPuesto14;
+    }
+
+    public void setBtnPuesto14(JButton btnPuesto14) {
+        this.btnPuesto14 = btnPuesto14;
+    }
+
+    public JButton getBtnPuesto15() {
+        return btnPuesto15;
+    }
+
+    public void setBtnPuesto15(JButton btnPuesto15) {
+        this.btnPuesto15 = btnPuesto15;
+    }
+
+    public JButton getBtnPuesto16() {
+        return btnPuesto16;
+    }
+
+    public void setBtnPuesto16(JButton btnPuesto16) {
+        this.btnPuesto16 = btnPuesto16;
+    }
+
+    public JButton getBtnPuesto17() {
+        return btnPuesto17;
+    }
+
+    public void setBtnPuesto17(JButton btnPuesto17) {
+        this.btnPuesto17 = btnPuesto17;
+    }
+
+    public JButton getBtnPuesto18() {
+        return btnPuesto18;
+    }
+
+    public void setBtnPuesto18(JButton btnPuesto18) {
+        this.btnPuesto18 = btnPuesto18;
+    }
+
+    public JButton getBtnPuesto19() {
+        return btnPuesto19;
+    }
+
+    public void setBtnPuesto19(JButton btnPuesto19) {
+        this.btnPuesto19 = btnPuesto19;
+    }
+
+    public JButton getBtnPuesto2() {
+        return btnPuesto2;
+    }
+
+    public void setBtnPuesto2(JButton btnPuesto2) {
+        this.btnPuesto2 = btnPuesto2;
+    }
+
+    public JButton getBtnPuesto20() {
+        return btnPuesto20;
+    }
+
+    public void setBtnPuesto20(JButton btnPuesto20) {
+        this.btnPuesto20 = btnPuesto20;
+    }
+
+    public JButton getBtnPuesto21() {
+        return btnPuesto21;
+    }
+
+    public void setBtnPuesto21(JButton btnPuesto21) {
+        this.btnPuesto21 = btnPuesto21;
+    }
+
+    public JButton getBtnPuesto22() {
+        return btnPuesto22;
+    }
+
+    public void setBtnPuesto22(JButton btnPuesto22) {
+        this.btnPuesto22 = btnPuesto22;
+    }
+
+    public JButton getBtnPuesto23() {
+        return btnPuesto23;
+    }
+
+    public void setBtnPuesto23(JButton btnPuesto23) {
+        this.btnPuesto23 = btnPuesto23;
+    }
+
+    public JButton getBtnPuesto24() {
+        return btnPuesto24;
+    }
+
+    public void setBtnPuesto24(JButton btnPuesto24) {
+        this.btnPuesto24 = btnPuesto24;
+    }
+
+    public JButton getBtnPuesto25() {
+        return btnPuesto25;
+    }
+
+    public void setBtnPuesto25(JButton btnPuesto25) {
+        this.btnPuesto25 = btnPuesto25;
+    }
+
+    public JButton getBtnPuesto26() {
+        return btnPuesto26;
+    }
+
+    public void setBtnPuesto26(JButton btnPuesto26) {
+        this.btnPuesto26 = btnPuesto26;
+    }
+
+    public JButton getBtnPuesto27() {
+        return btnPuesto27;
+    }
+
+    public void setBtnPuesto27(JButton btnPuesto27) {
+        this.btnPuesto27 = btnPuesto27;
+    }
+
+    public JButton getBtnPuesto28() {
+        return btnPuesto28;
+    }
+
+    public void setBtnPuesto28(JButton btnPuesto28) {
+        this.btnPuesto28 = btnPuesto28;
+    }
+
+    public JButton getBtnPuesto29() {
+        return btnPuesto29;
+    }
+
+    public void setBtnPuesto29(JButton btnPuesto29) {
+        this.btnPuesto29 = btnPuesto29;
+    }
+
+    public JButton getBtnPuesto3() {
+        return btnPuesto3;
+    }
+
+    public void setBtnPuesto3(JButton btnPuesto3) {
+        this.btnPuesto3 = btnPuesto3;
+    }
+
+    public JButton getBtnPuesto30() {
+        return btnPuesto30;
+    }
+
+    public void setBtnPuesto30(JButton btnPuesto30) {
+        this.btnPuesto30 = btnPuesto30;
+    }
+
+    public JButton getBtnPuesto31() {
+        return btnPuesto31;
+    }
+
+    public void setBtnPuesto31(JButton btnPuesto31) {
+        this.btnPuesto31 = btnPuesto31;
+    }
+
+    public JButton getBtnPuesto32() {
+        return btnPuesto32;
+    }
+
+    public void setBtnPuesto32(JButton btnPuesto32) {
+        this.btnPuesto32 = btnPuesto32;
+    }
+
+    public JButton getBtnPuesto33() {
+        return btnPuesto33;
+    }
+
+    public void setBtnPuesto33(JButton btnPuesto33) {
+        this.btnPuesto33 = btnPuesto33;
+    }
+
+    public JButton getBtnPuesto34() {
+        return btnPuesto34;
+    }
+
+    public void setBtnPuesto34(JButton btnPuesto34) {
+        this.btnPuesto34 = btnPuesto34;
+    }
+
+    public JButton getBtnPuesto35() {
+        return btnPuesto35;
+    }
+
+    public void setBtnPuesto35(JButton btnPuesto35) {
+        this.btnPuesto35 = btnPuesto35;
+    }
+
+    public JButton getBtnPuesto36() {
+        return btnPuesto36;
+    }
+
+    public void setBtnPuesto36(JButton btnPuesto36) {
+        this.btnPuesto36 = btnPuesto36;
+    }
+
+    public JButton getBtnPuesto37() {
+        return btnPuesto37;
+    }
+
+    public void setBtnPuesto37(JButton btnPuesto37) {
+        this.btnPuesto37 = btnPuesto37;
+    }
+
+    public JButton getBtnPuesto38() {
+        return btnPuesto38;
+    }
+
+    public void setBtnPuesto38(JButton btnPuesto38) {
+        this.btnPuesto38 = btnPuesto38;
+    }
+
+    public JButton getBtnPuesto39() {
+        return btnPuesto39;
+    }
+
+    public void setBtnPuesto39(JButton btnPuesto39) {
+        this.btnPuesto39 = btnPuesto39;
+    }
+
+    public JButton getBtnPuesto4() {
+        return btnPuesto4;
+    }
+
+    public void setBtnPuesto4(JButton btnPuesto4) {
+        this.btnPuesto4 = btnPuesto4;
+    }
+
+    public JButton getBtnPuesto40() {
+        return btnPuesto40;
+    }
+
+    public void setBtnPuesto40(JButton btnPuesto40) {
+        this.btnPuesto40 = btnPuesto40;
+    }
+
+    public JButton getBtnPuesto41() {
+        return btnPuesto41;
+    }
+
+    public void setBtnPuesto41(JButton btnPuesto41) {
+        this.btnPuesto41 = btnPuesto41;
+    }
+
+    public JButton getBtnPuesto42() {
+        return btnPuesto42;
+    }
+
+    public void setBtnPuesto42(JButton btnPuesto42) {
+        this.btnPuesto42 = btnPuesto42;
+    }
+
+    public JButton getBtnPuesto43() {
+        return btnPuesto43;
+    }
+
+    public void setBtnPuesto43(JButton btnPuesto43) {
+        this.btnPuesto43 = btnPuesto43;
+    }
+
+    public JButton getBtnPuesto44() {
+        return btnPuesto44;
+    }
+
+    public void setBtnPuesto44(JButton btnPuesto44) {
+        this.btnPuesto44 = btnPuesto44;
+    }
+
+    public JButton getBtnPuesto45() {
+        return btnPuesto45;
+    }
+
+    public void setBtnPuesto45(JButton btnPuesto45) {
+        this.btnPuesto45 = btnPuesto45;
+    }
+
+    public JButton getBtnPuesto46() {
+        return btnPuesto46;
+    }
+
+    public void setBtnPuesto46(JButton btnPuesto46) {
+        this.btnPuesto46 = btnPuesto46;
+    }
+
+    public JButton getBtnPuesto47() {
+        return btnPuesto47;
+    }
+
+    public void setBtnPuesto47(JButton btnPuesto47) {
+        this.btnPuesto47 = btnPuesto47;
+    }
+
+    public JButton getBtnPuesto48() {
+        return btnPuesto48;
+    }
+
+    public void setBtnPuesto48(JButton btnPuesto48) {
+        this.btnPuesto48 = btnPuesto48;
+    }
+
+    public JButton getBtnPuesto49() {
+        return btnPuesto49;
+    }
+
+    public void setBtnPuesto49(JButton btnPuesto49) {
+        this.btnPuesto49 = btnPuesto49;
+    }
+
+    public JButton getBtnPuesto5() {
+        return btnPuesto5;
+    }
+
+    public void setBtnPuesto5(JButton btnPuesto5) {
+        this.btnPuesto5 = btnPuesto5;
+    }
+
+    public JButton getBtnPuesto50() {
+        return btnPuesto50;
+    }
+
+    public void setBtnPuesto50(JButton btnPuesto50) {
+        this.btnPuesto50 = btnPuesto50;
+    }
+
+    public JButton getBtnPuesto6() {
+        return btnPuesto6;
+    }
+
+    public void setBtnPuesto6(JButton btnPuesto6) {
+        this.btnPuesto6 = btnPuesto6;
+    }
+
+    public JButton getBtnPuesto7() {
+        return btnPuesto7;
+    }
+
+    public void setBtnPuesto7(JButton btnPuesto7) {
+        this.btnPuesto7 = btnPuesto7;
+    }
+
+    public JButton getBtnPuesto8() {
+        return btnPuesto8;
+    }
+
+    public void setBtnPuesto8(JButton btnPuesto8) {
+        this.btnPuesto8 = btnPuesto8;
+    }
+
+    public JButton getBtnPuesto9() {
+        return btnPuesto9;
+    }
+
+    public void setBtnPuesto9(JButton btnPuesto9) {
+        this.btnPuesto9 = btnPuesto9;
+    }
+
+    public JButton getBtnSalir() {
+        return btnSalir;
+    }
+
+    public void setBtnSalir(JButton btnSalir) {
+        this.btnSalir = btnSalir;
+    }
+
+    public JComboBox<String> getCmbDia() {
+        return cmbDia;
+    }
+
+    public void setCmbDia(JComboBox<String> cmbDia) {
+        this.cmbDia = cmbDia;
+    }
+
+    public JLabel getLblPuesto1() {
+        return lblPuesto1;
+    }
+
+    public void setLblPuesto1(JLabel lblPuesto1) {
+        this.lblPuesto1 = lblPuesto1;
+    }
+
+    public JLabel getLblPuesto10() {
+        return lblPuesto10;
+    }
+
+    public void setLblPuesto10(JLabel lblPuesto10) {
+        this.lblPuesto10 = lblPuesto10;
+    }
+
+    public JLabel getLblPuesto11() {
+        return lblPuesto11;
+    }
+
+    public void setLblPuesto11(JLabel lblPuesto11) {
+        this.lblPuesto11 = lblPuesto11;
+    }
+
+    public JLabel getLblPuesto12() {
+        return lblPuesto12;
+    }
+
+    public void setLblPuesto12(JLabel lblPuesto12) {
+        this.lblPuesto12 = lblPuesto12;
+    }
+
+    public JLabel getLblPuesto13() {
+        return lblPuesto13;
+    }
+
+    public void setLblPuesto13(JLabel lblPuesto13) {
+        this.lblPuesto13 = lblPuesto13;
+    }
+
+    public JLabel getLblPuesto14() {
+        return lblPuesto14;
+    }
+
+    public void setLblPuesto14(JLabel lblPuesto14) {
+        this.lblPuesto14 = lblPuesto14;
+    }
+
+    public JLabel getLblPuesto15() {
+        return lblPuesto15;
+    }
+
+    public void setLblPuesto15(JLabel lblPuesto15) {
+        this.lblPuesto15 = lblPuesto15;
+    }
+
+    public JLabel getLblPuesto16() {
+        return lblPuesto16;
+    }
+
+    public void setLblPuesto16(JLabel lblPuesto16) {
+        this.lblPuesto16 = lblPuesto16;
+    }
+
+    public JLabel getLblPuesto17() {
+        return lblPuesto17;
+    }
+
+    public void setLblPuesto17(JLabel lblPuesto17) {
+        this.lblPuesto17 = lblPuesto17;
+    }
+
+    public JLabel getLblPuesto18() {
+        return lblPuesto18;
+    }
+
+    public void setLblPuesto18(JLabel lblPuesto18) {
+        this.lblPuesto18 = lblPuesto18;
+    }
+
+    public JLabel getLblPuesto19() {
+        return lblPuesto19;
+    }
+
+    public void setLblPuesto19(JLabel lblPuesto19) {
+        this.lblPuesto19 = lblPuesto19;
+    }
+
+    public JLabel getLblPuesto2() {
+        return lblPuesto2;
+    }
+
+    public void setLblPuesto2(JLabel lblPuesto2) {
+        this.lblPuesto2 = lblPuesto2;
+    }
+
+    public JLabel getLblPuesto20() {
+        return lblPuesto20;
+    }
+
+    public void setLblPuesto20(JLabel lblPuesto20) {
+        this.lblPuesto20 = lblPuesto20;
+    }
+
+    public JLabel getLblPuesto21() {
+        return lblPuesto21;
+    }
+
+    public void setLblPuesto21(JLabel lblPuesto21) {
+        this.lblPuesto21 = lblPuesto21;
+    }
+
+    public JLabel getLblPuesto22() {
+        return lblPuesto22;
+    }
+
+    public void setLblPuesto22(JLabel lblPuesto22) {
+        this.lblPuesto22 = lblPuesto22;
+    }
+
+    public JLabel getLblPuesto23() {
+        return lblPuesto23;
+    }
+
+    public void setLblPuesto23(JLabel lblPuesto23) {
+        this.lblPuesto23 = lblPuesto23;
+    }
+
+    public JLabel getLblPuesto24() {
+        return lblPuesto24;
+    }
+
+    public void setLblPuesto24(JLabel lblPuesto24) {
+        this.lblPuesto24 = lblPuesto24;
+    }
+
+    public JLabel getLblPuesto25() {
+        return lblPuesto25;
+    }
+
+    public void setLblPuesto25(JLabel lblPuesto25) {
+        this.lblPuesto25 = lblPuesto25;
+    }
+
+    public JLabel getLblPuesto26() {
+        return lblPuesto26;
+    }
+
+    public void setLblPuesto26(JLabel lblPuesto26) {
+        this.lblPuesto26 = lblPuesto26;
+    }
+
+    public JLabel getLblPuesto27() {
+        return lblPuesto27;
+    }
+
+    public void setLblPuesto27(JLabel lblPuesto27) {
+        this.lblPuesto27 = lblPuesto27;
+    }
+
+    public JLabel getLblPuesto28() {
+        return lblPuesto28;
+    }
+
+    public void setLblPuesto28(JLabel lblPuesto28) {
+        this.lblPuesto28 = lblPuesto28;
+    }
+
+    public JLabel getLblPuesto29() {
+        return lblPuesto29;
+    }
+
+    public void setLblPuesto29(JLabel lblPuesto29) {
+        this.lblPuesto29 = lblPuesto29;
+    }
+
+    public JLabel getLblPuesto3() {
+        return lblPuesto3;
+    }
+
+    public void setLblPuesto3(JLabel lblPuesto3) {
+        this.lblPuesto3 = lblPuesto3;
+    }
+
+    public JLabel getLblPuesto30() {
+        return lblPuesto30;
+    }
+
+    public void setLblPuesto30(JLabel lblPuesto30) {
+        this.lblPuesto30 = lblPuesto30;
+    }
+
+    public JLabel getLblPuesto31() {
+        return lblPuesto31;
+    }
+
+    public void setLblPuesto31(JLabel lblPuesto31) {
+        this.lblPuesto31 = lblPuesto31;
+    }
+
+    public JLabel getLblPuesto32() {
+        return lblPuesto32;
+    }
+
+    public void setLblPuesto32(JLabel lblPuesto32) {
+        this.lblPuesto32 = lblPuesto32;
+    }
+
+    public JLabel getLblPuesto33() {
+        return lblPuesto33;
+    }
+
+    public void setLblPuesto33(JLabel lblPuesto33) {
+        this.lblPuesto33 = lblPuesto33;
+    }
+
+    public JLabel getLblPuesto34() {
+        return lblPuesto34;
+    }
+
+    public void setLblPuesto34(JLabel lblPuesto34) {
+        this.lblPuesto34 = lblPuesto34;
+    }
+
+    public JLabel getLblPuesto35() {
+        return lblPuesto35;
+    }
+
+    public void setLblPuesto35(JLabel lblPuesto35) {
+        this.lblPuesto35 = lblPuesto35;
+    }
+
+    public JLabel getLblPuesto36() {
+        return lblPuesto36;
+    }
+
+    public void setLblPuesto36(JLabel lblPuesto36) {
+        this.lblPuesto36 = lblPuesto36;
+    }
+
+    public JLabel getLblPuesto37() {
+        return lblPuesto37;
+    }
+
+    public void setLblPuesto37(JLabel lblPuesto37) {
+        this.lblPuesto37 = lblPuesto37;
+    }
+
+    public JLabel getLblPuesto38() {
+        return lblPuesto38;
+    }
+
+    public void setLblPuesto38(JLabel lblPuesto38) {
+        this.lblPuesto38 = lblPuesto38;
+    }
+
+    public JLabel getLblPuesto39() {
+        return lblPuesto39;
+    }
+
+    public void setLblPuesto39(JLabel lblPuesto39) {
+        this.lblPuesto39 = lblPuesto39;
+    }
+
+    public JLabel getLblPuesto4() {
+        return lblPuesto4;
+    }
+
+    public void setLblPuesto4(JLabel lblPuesto4) {
+        this.lblPuesto4 = lblPuesto4;
+    }
+
+    public JLabel getLblPuesto40() {
+        return lblPuesto40;
+    }
+
+    public void setLblPuesto40(JLabel lblPuesto40) {
+        this.lblPuesto40 = lblPuesto40;
+    }
+
+    public JLabel getLblPuesto41() {
+        return lblPuesto41;
+    }
+
+    public void setLblPuesto41(JLabel lblPuesto41) {
+        this.lblPuesto41 = lblPuesto41;
+    }
+
+    public JLabel getLblPuesto42() {
+        return lblPuesto42;
+    }
+
+    public void setLblPuesto42(JLabel lblPuesto42) {
+        this.lblPuesto42 = lblPuesto42;
+    }
+
+    public JLabel getLblPuesto43() {
+        return lblPuesto43;
+    }
+
+    public void setLblPuesto43(JLabel lblPuesto43) {
+        this.lblPuesto43 = lblPuesto43;
+    }
+
+    public JLabel getLblPuesto44() {
+        return lblPuesto44;
+    }
+
+    public void setLblPuesto44(JLabel lblPuesto44) {
+        this.lblPuesto44 = lblPuesto44;
+    }
+
+    public JLabel getLblPuesto45() {
+        return lblPuesto45;
+    }
+
+    public void setLblPuesto45(JLabel lblPuesto45) {
+        this.lblPuesto45 = lblPuesto45;
+    }
+
+    public JLabel getLblPuesto46() {
+        return lblPuesto46;
+    }
+
+    public void setLblPuesto46(JLabel lblPuesto46) {
+        this.lblPuesto46 = lblPuesto46;
+    }
+
+    public JLabel getLblPuesto47() {
+        return lblPuesto47;
+    }
+
+    public void setLblPuesto47(JLabel lblPuesto47) {
+        this.lblPuesto47 = lblPuesto47;
+    }
+
+    public JLabel getLblPuesto48() {
+        return lblPuesto48;
+    }
+
+    public void setLblPuesto48(JLabel lblPuesto48) {
+        this.lblPuesto48 = lblPuesto48;
+    }
+
+    public JLabel getLblPuesto49() {
+        return lblPuesto49;
+    }
+
+    public void setLblPuesto49(JLabel lblPuesto49) {
+        this.lblPuesto49 = lblPuesto49;
+    }
+
+    public JLabel getLblPuesto5() {
+        return lblPuesto5;
+    }
+
+    public void setLblPuesto5(JLabel lblPuesto5) {
+        this.lblPuesto5 = lblPuesto5;
+    }
+
+    public JLabel getLblPuesto50() {
+        return lblPuesto50;
+    }
+
+    public void setLblPuesto50(JLabel lblPuesto50) {
+        this.lblPuesto50 = lblPuesto50;
+    }
+
+    public JLabel getLblPuesto6() {
+        return lblPuesto6;
+    }
+
+    public void setLblPuesto6(JLabel lblPuesto6) {
+        this.lblPuesto6 = lblPuesto6;
+    }
+
+    public JLabel getLblPuesto7() {
+        return lblPuesto7;
+    }
+
+    public void setLblPuesto7(JLabel lblPuesto7) {
+        this.lblPuesto7 = lblPuesto7;
+    }
+
+    public JLabel getLblPuesto8() {
+        return lblPuesto8;
+    }
+
+    public void setLblPuesto8(JLabel lblPuesto8) {
+        this.lblPuesto8 = lblPuesto8;
+    }
+
+    public JLabel getLblPuesto9() {
+        return lblPuesto9;
+    }
+
+    public void setLblPuesto9(JLabel lblPuesto9) {
+        this.lblPuesto9 = lblPuesto9;
+    }
+
+    public JPanel getPnlTitle() {
+        return pnlTitle;
+    }
+
+    public void setPnlTitle(JPanel pnlTitle) {
+        this.pnlTitle = pnlTitle;
+    }
+
+    public JRadioButton getRbDel() {
+        return rbDel;
+    }
+
+    public void setRbDel(JRadioButton rbDel) {
+        this.rbDel = rbDel;
+    }
+
+    public JRadioButton getRbRango() {
+        return rbRango;
+    }
+
+    public void setRbRango(JRadioButton rbRango) {
+        this.rbRango = rbRango;
+    }
+
+    public BlackTabbedPane getTbdPaneVehicles() {
+        return tbdPaneVehicles;
+    }
+
+    public void setTbdPaneVehicles(BlackTabbedPane tbdPaneVehicles) {
+        this.tbdPaneVehicles = tbdPaneVehicles;
+    }
+
+    public BlackTabbedPane getTbpMain() {
+        return tbpMain;
+    }
+
+    public void setTbpMain(BlackTabbedPane tbpMain) {
+        this.tbpMain = tbpMain;
+    }
+
+    public JTable getTlbHistorial() {
+        return tlbHistorial;
+    }
+
+    public void setTlbHistorial(JTable tlbHistorial) {
+        this.tlbHistorial = tlbHistorial;
+    }
+
+    public JFormattedTextField getTxtFechaFinal() {
+        return txtFechaFinal;
+    }
+
+    public void setTxtFechaFinal(JFormattedTextField txtFechaFinal) {
+        this.txtFechaFinal = txtFechaFinal;
+    }
+
+    public JFormattedTextField getTxtFechaInicial() {
+        return txtFechaInicial;
+    }
+
+    public void setTxtFechaInicial(JFormattedTextField txtFechaInicial) {
+        this.txtFechaInicial = txtFechaInicial;
+    }
+
 }

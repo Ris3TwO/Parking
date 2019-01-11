@@ -14,26 +14,19 @@ import views.Main;
  * @author stalker
  */
 public class button_control implements ActionListener{
- private Main vista;
+    private Main vista;
     
-public button_control(Main vista){
-this.vista = new Main();
-this.vista.btnPuesto1.addActionListener(this);
-}
+    public button_control(Main vista){
+        this.vista = vista;
+        this.vista.getBtnPuesto1().addActionListener(this);
+    }
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         
-           
-    
-        if (e.getSource() == vista.btnPuesto1) {
+        if (e.getSource() == vista.getBtnPuesto1()) {
              JOptionPane.showInputDialog("Por favor confirme");
-     } else {
-     }
-
-            
-        
-    
-    
-    }
-    
+        } else {
+        }
+    }  
 }
