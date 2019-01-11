@@ -18,14 +18,19 @@ public class button_control implements ActionListener{
     
     public button_control(Main vista){
         this.vista = vista;
+        this.vista.getBtnSalir().addActionListener(this);
         this.vista.getBtnPuesto1().addActionListener(this);
     }
     
     @Override
     public void actionPerformed(ActionEvent e) {
         
+        if (e.getSource() == vista.getBtnSalir()) {
+            System.exit(0);
+        }
+        
         if (e.getSource() == vista.getBtnPuesto1()) {
-             JOptionPane.showInputDialog("Por favor confirme");
+            JOptionPane.showInputDialog("Por favor confirme");
         } else {
         }
     }  
