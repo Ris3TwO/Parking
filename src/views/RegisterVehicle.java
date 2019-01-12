@@ -5,6 +5,7 @@
  */
 package views;
 
+import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import mvc.registro;
 
@@ -16,21 +17,9 @@ import mvc.registro;
 public class RegisterVehicle extends javax.swing.JDialog {
 
     /**
-     * @return the btn_save
-     */
-    public javax.swing.JButton getBtn_save() {
-        return btn_save;
-    }
-
-    /**
-     * @param btn_save the btn_save to set
-     */
-    public void setBtn_save(javax.swing.JButton btn_save) {
-        this.btn_save = btn_save;
-    }
-
-    /**
      * Creates new form RegisterVehicle
+     * @param parent
+     * @param modal
      */
     public RegisterVehicle(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -142,11 +131,6 @@ public class RegisterVehicle extends javax.swing.JDialog {
         btnCancelar.setContentAreaFilled(false);
         btnCancelar.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 2.png"))); // NOI18N
         btnCancelar.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 2.png"))); // NOI18N
-        btnCancelar.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnCancelarMouseClicked(evt);
-            }
-        });
         jPanel1.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 380, 150, 40));
 
         btn_save.setText("Guardar");
@@ -165,11 +149,6 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btnCancelarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCancelarMouseClicked
-      dispose();
-        System.out.println();
-    }//GEN-LAST:event_btnCancelarMouseClicked
 
     /**
      * @param args the command line arguments
@@ -233,4 +212,22 @@ public class RegisterVehicle extends javax.swing.JDialog {
     private javax.swing.JTextField txtNombreVisitante;
     private javax.swing.JTextField txtPlaca;
     // End of variables declaration//GEN-END:variables
+
+    public JButton getBtnCancelar() {
+        return btnCancelar;
+    }
+
+    public void setBtnCancelar(JButton btnCancelar) {
+        this.btnCancelar = btnCancelar;
+    }
+
+    public JButton getBtn_save() {
+        return btn_save;
+    }
+
+    public void setBtn_save(JButton btn_save) {
+        this.btn_save = btn_save;
+    }
+
+
 }

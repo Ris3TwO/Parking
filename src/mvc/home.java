@@ -20,12 +20,10 @@ public class home {
      */
     public static void main(String[] args) {
         Main view = new Main();
+        RegisterVehicle reg = new RegisterVehicle(null, false);
+        button_control control = new button_control(view, reg);
+        control.Inicio();
         view.setVisible(true);
-        view.setLocationRelativeTo(null);
-        view.setDefaultCloseOperation(view.EXIT_ON_CLOSE);
-        RegisterVehicle reg=new RegisterVehicle(view, true);
-        button_control control = new button_control(view,reg);
-        
     }
     
 }
