@@ -5,11 +5,29 @@
  */
 package views;
 
+import javax.swing.JOptionPane;
+import mvc.registro;
+
+
 /**
  *
  * @author Ris3TwO
  */
 public class RegisterVehicle extends javax.swing.JDialog {
+
+    /**
+     * @return the btn_save
+     */
+    public javax.swing.JButton getBtn_save() {
+        return btn_save;
+    }
+
+    /**
+     * @param btn_save the btn_save to set
+     */
+    public void setBtn_save(javax.swing.JButton btn_save) {
+        this.btn_save = btn_save;
+    }
 
     /**
      * Creates new form RegisterVehicle
@@ -45,12 +63,14 @@ public class RegisterVehicle extends javax.swing.JDialog {
         lblPlacaIcono = new javax.swing.JLabel();
         lblNumeroAptoIcono = new javax.swing.JLabel();
         btnCancelar = new javax.swing.JButton();
+        btn_save = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
+        jPanel1.setAlignmentX(300.0F);
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblTitulo.setBackground(new java.awt.Color(0, 0, 0));
@@ -62,7 +82,6 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("PUESTO DE ESTACIONAMIENTO Nº");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
@@ -73,7 +92,6 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
         lblPlaca.setBackground(new java.awt.Color(0, 0, 0));
         lblPlaca.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblPlaca.setForeground(new java.awt.Color(0, 0, 0));
         lblPlaca.setText("Placa del Vehículo:");
         jPanel1.add(lblPlaca, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, -1));
 
@@ -82,7 +100,6 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
         lblNumeroApto.setBackground(new java.awt.Color(0, 0, 0));
         lblNumeroApto.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblNumeroApto.setForeground(new java.awt.Color(0, 0, 0));
         lblNumeroApto.setText("Número de Apartamento:");
         jPanel1.add(lblNumeroApto, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, -1, 20));
 
@@ -96,7 +113,6 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
         lblNombreVisitante.setBackground(new java.awt.Color(0, 0, 0));
         lblNombreVisitante.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        lblNombreVisitante.setForeground(new java.awt.Color(0, 0, 0));
         lblNombreVisitante.setText("Nombre del Visitante:");
         jPanel1.add(lblNombreVisitante, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 280, -1, -1));
 
@@ -119,7 +135,6 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
         btnCancelar.setBackground(new java.awt.Color(102, 102, 102));
         btnCancelar.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btnCancelar.setForeground(new java.awt.Color(0, 0, 0));
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 1.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
         btnCancelar.setBorder(null);
@@ -127,7 +142,15 @@ public class RegisterVehicle extends javax.swing.JDialog {
         btnCancelar.setContentAreaFilled(false);
         btnCancelar.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 2.png"))); // NOI18N
         btnCancelar.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/multiply 2.png"))); // NOI18N
-        jPanel1.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, 150, 40));
+        btnCancelar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnCancelarMouseClicked(evt);
+            }
+        });
+        jPanel1.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 380, 150, 40));
+
+        btn_save.setText("Guardar");
+        jPanel1.add(btn_save, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -142,6 +165,11 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCancelarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCancelarMouseClicked
+      dispose();
+        System.out.println();
+    }//GEN-LAST:event_btnCancelarMouseClicked
 
     /**
      * @param args the command line arguments
@@ -187,6 +215,7 @@ public class RegisterVehicle extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancelar;
+    public javax.swing.JButton btn_save;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
