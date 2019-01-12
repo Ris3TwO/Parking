@@ -20,6 +20,7 @@ public class button_control implements ActionListener{
     private Main vista = new Main();
     private registro model;
     private RegisterVehicle reg;
+    private int contador = 0;
     
     public button_control(Main vista, RegisterVehicle reg){
         this.model=new registro();
@@ -37,7 +38,12 @@ public class button_control implements ActionListener{
     
     public void Inicio(){
         vista.setLocationRelativeTo(null);
+        contador = 0;
+    }
+    
+    public void InicioReg(){
         reg.setLocationRelativeTo(vista);
+        contador++;
     }
     
     @Override
@@ -48,12 +54,14 @@ public class button_control implements ActionListener{
         }   
        
         if (e.getSource() == vista.getBtnPuesto10()) {
-            reg = new RegisterVehicle(vista, true);
-            button_control control = new button_control(vista,reg);
-            control.Inicio();
-            reg.setVisible(true);
-            model.setPuesto(10);
-            System.out.println("Que te pasa cv"+ model.getPuesto());
+            if (contador == 0){
+                reg = new RegisterVehicle(vista, true);
+                button_control control = new button_control(vista,reg);
+                control.InicioReg();
+                reg.setVisible(true);
+                model.setPuesto(10);
+                System.out.println("Que te pasa cv"+ model.getPuesto()); 
+            }
         }
         
         if (e.getSource() == reg.getBtn_save()) {
@@ -63,9 +71,9 @@ public class button_control implements ActionListener{
         }
         
         if (e.getSource() == reg.getBtnCancelar()){
-            reg.dispose();
+            if (contador != 0){
+                reg.dispose();
+            } 
         }
-        
-        
     }  
 }
