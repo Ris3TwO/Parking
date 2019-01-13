@@ -7,7 +7,7 @@ package mvc;
 
 import controlador.button_control;
 import views.Main;
-import views.RegisterVehicle;
+import views.RegistroVehiculo;
 
 /**
  *
@@ -20,7 +20,7 @@ public class home {
      */
     public static void main(String[] args) {
         Main view = new Main();
-        RegisterVehicle reg = new RegisterVehicle(null, false);
+        RegistroVehiculo reg = new RegistroVehiculo(null, false);
         button_control control = new button_control(view, reg);
         control.Inicio();
         view.setVisible(true);
