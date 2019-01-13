@@ -145,7 +145,32 @@ public class Main extends javax.swing.JFrame {
         lblPuesto13 = new javax.swing.JLabel();
         btnPuesto14 = new javax.swing.JButton();
         pnlConsulta = new javax.swing.JPanel();
-        pnlAgregarDatos = new javax.swing.JPanel();
+        lblConsulta = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
         pnlHistorialdeIngreso = new javax.swing.JPanel();
         lblHistorial = new javax.swing.JLabel();
         pnlFiltrado = new javax.swing.JPanel();
@@ -158,7 +183,6 @@ public class Main extends javax.swing.JFrame {
         cmbDia = new javax.swing.JComboBox<>();
         jScrollPane1 = new javax.swing.JScrollPane();
         tlbHistorial = new javax.swing.JTable();
-        pnlVisitantes = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -1006,34 +1030,140 @@ public class Main extends javax.swing.JFrame {
         tbpMain.addTab("Panel de Ingreso", new javax.swing.ImageIcon(getClass().getResource("/images/005-parking-sign.png")), pnlIngreso); // NOI18N
 
         pnlConsulta.setBackground(new java.awt.Color(255, 255, 255));
+        pnlConsulta.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout pnlConsultaLayout = new javax.swing.GroupLayout(pnlConsulta);
-        pnlConsulta.setLayout(pnlConsultaLayout);
-        pnlConsultaLayout.setHorizontalGroup(
-            pnlConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 959, Short.MAX_VALUE)
-        );
-        pnlConsultaLayout.setVerticalGroup(
-            pnlConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 665, Short.MAX_VALUE)
-        );
+        lblConsulta.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        lblConsulta.setForeground(new java.awt.Color(153, 153, 0));
+        lblConsulta.setText("Consulta de Datos");
+        pnlConsulta.add(lblConsulta, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, -1, -1));
+
+        jButton1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jButton1.setText("Buscar");
+        pnlConsulta.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 90, -1, 20));
+
+        jTextField1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        pnlConsulta.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 90, 280, -1));
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Century Gothic", 1, 14), new java.awt.Color(204, 255, 0))); // NOI18N
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel2.setText("Datos Personales");
+        jPanel4.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 5, -1, -1));
+
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 360, 30));
+
+        jLabel5.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("00");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 110, 80, -1));
+
+        jLabel6.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(102, 102, 0));
+        jLabel6.setText("Nombres:");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 60, -1));
+
+        jLabel7.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(102, 102, 0));
+        jLabel7.setText("Apellidos:");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(102, 102, 0));
+        jLabel8.setText("Código Usuario");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(102, 102, 0));
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setText("Apartamento");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 80, -1, -1));
+
+        jLabel10.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(102, 102, 0));
+        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel10.setText("Torre");
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 140, 80, -1));
+
+        jLabel11.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel11.setText("1");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 170, 80, -1));
+
+        jLabel12.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel12.setText("DATO");
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 80, 160, -1));
+
+        jLabel13.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel13.setText("DATO");
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, 160, -1));
+
+        jLabel14.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel14.setText("DATO");
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, 160, -1));
+
+        jLabel15.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(102, 102, 0));
+        jLabel15.setText("Tarjeta Nº:");
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
+
+        jTextField2.setEditable(false);
+        jTextField2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, 90, -1));
+
+        pnlConsulta.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 420, 240));
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel3.setText("Datos del Vehículo");
+        jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 5, -1, -1));
+
+        jPanel2.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 360, 30));
+
+        pnlConsulta.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 130, 420, 240));
+
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel4.setText("Historial");
+        jPanel6.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(384, 5, -1, -1));
+
+        jPanel3.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 820, 30));
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane2.setViewportView(jTable1);
+
+        jPanel3.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 880, 180));
+
+        pnlConsulta.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 880, 240));
 
         tbpMain.addTab("Consultar Datos   ", new javax.swing.ImageIcon(getClass().getResource("/images/046-car.png")), pnlConsulta); // NOI18N
-
-        pnlAgregarDatos.setBackground(new java.awt.Color(255, 255, 255));
-
-        javax.swing.GroupLayout pnlAgregarDatosLayout = new javax.swing.GroupLayout(pnlAgregarDatos);
-        pnlAgregarDatos.setLayout(pnlAgregarDatosLayout);
-        pnlAgregarDatosLayout.setHorizontalGroup(
-            pnlAgregarDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 959, Short.MAX_VALUE)
-        );
-        pnlAgregarDatosLayout.setVerticalGroup(
-            pnlAgregarDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 665, Short.MAX_VALUE)
-        );
-
-        tbpMain.addTab(" Agregar Datos   ", new javax.swing.ImageIcon(getClass().getResource("/images/044-parking-ticket.png")), pnlAgregarDatos, ""); // NOI18N
 
         pnlHistorialdeIngreso.setBackground(new java.awt.Color(255, 255, 255));
         pnlHistorialdeIngreso.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -1121,22 +1251,6 @@ public class Main extends javax.swing.JFrame {
 
         tbpMain.addTab("Historial General", new javax.swing.ImageIcon(getClass().getResource("/images/043-parking-4.png")), pnlHistorialdeIngreso); // NOI18N
 
-        pnlVisitantes.setBackground(new java.awt.Color(255, 255, 255));
-        pnlVisitantes.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-
-        javax.swing.GroupLayout pnlVisitantesLayout = new javax.swing.GroupLayout(pnlVisitantes);
-        pnlVisitantes.setLayout(pnlVisitantesLayout);
-        pnlVisitantesLayout.setHorizontalGroup(
-            pnlVisitantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 959, Short.MAX_VALUE)
-        );
-        pnlVisitantesLayout.setVerticalGroup(
-            pnlVisitantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 665, Short.MAX_VALUE)
-        );
-
-        tbpMain.addTab("Visitantes              ", new javax.swing.ImageIcon(getClass().getResource("/images/031-key.png")), pnlVisitantes); // NOI18N
-
         pnlMain.add(tbpMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(2, 12, 1140, 670));
 
         getContentPane().add(pnlMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 1140, 684));
@@ -1202,10 +1316,36 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton btnPuesto9;
     private javax.swing.JButton btnSalir;
     private javax.swing.JComboBox<String> cmbDia;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JLabel lblConsulta;
     private javax.swing.JLabel lblHistorial;
     private javax.swing.JLabel lblPuesto1;
     private javax.swing.JLabel lblPuesto10;
@@ -1257,7 +1397,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel lblPuesto7;
     private javax.swing.JLabel lblPuesto8;
     private javax.swing.JLabel lblPuesto9;
-    private javax.swing.JPanel pnlAgregarDatos;
     private plugins.CustomPanelAuto pnlAuto;
     private javax.swing.JPanel pnlConsulta;
     private javax.swing.JPanel pnlFiltrado;
@@ -1265,7 +1404,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JPanel pnlIngreso;
     private javax.swing.JPanel pnlMain;
     private javax.swing.JPanel pnlTitle;
-    private javax.swing.JPanel pnlVisitantes;
     private javax.swing.JRadioButton rbDel;
     private javax.swing.JRadioButton rbRango;
     private org.matrix.BlackTabbedPane tbdPaneVehicles;
