@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 import mvc.registro;
 import views.Main;
-import views.RegisterVehicle;
+import views.RegistroVehiculo;
 /**
  *
  * @author stalker
@@ -19,10 +19,11 @@ public class button_control implements ActionListener{
     
     private Main vista = new Main();
     private registro model;
-    private RegisterVehicle reg;
+    private RegistroVehiculo reg;
     private int contador = 0;
     
-    public button_control(Main vista, RegisterVehicle reg){
+    @SuppressWarnings("LeakingThisInConstructor")
+    public button_control(Main vista, RegistroVehiculo reg){
         this.model=new registro();
         this.vista = vista;
         this.reg = reg;
@@ -52,10 +53,10 @@ public class button_control implements ActionListener{
         if (e.getSource() == vista.getBtnSalir()) {
             System.exit(0);
         }   
-       
-        if (e.getSource() == vista.getBtnPuesto10()) {
-            if (contador == 0){
-                reg = new RegisterVehicle(vista, true);
+        
+        if (contador == 0){
+            if (e.getSource() == vista.getBtnPuesto10()) {
+                reg = new RegistroVehiculo(vista, true);
                 button_control control = new button_control(vista,reg);
                 control.InicioReg();
                 reg.setVisible(true);
