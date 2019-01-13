@@ -36,6 +36,7 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         pnlTitle = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         btnSalir = new javax.swing.JButton();
@@ -1207,6 +1208,7 @@ public class Main extends javax.swing.JFrame {
         pnlFiltrado.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "> Filtrado <", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Century Gothic", 1, 14))); // NOI18N
         pnlFiltrado.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        buttonGroup1.add(rbDel);
         rbDel.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         rbDel.setText("Del");
         pnlFiltrado.add(rbDel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
@@ -1223,6 +1225,7 @@ public class Main extends javax.swing.JFrame {
         txtFechaFinal.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         pnlFiltrado.add(txtFechaFinal, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 70, 100, -1));
 
+        buttonGroup1.add(rbRango);
         rbRango.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         rbRango.setText("Por Rango");
         pnlFiltrado.add(rbRango, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
@@ -1345,6 +1348,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton btnPuesto8;
     private javax.swing.JButton btnPuesto9;
     private javax.swing.JButton btnSalir;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JComboBox<String> cmbDia;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
