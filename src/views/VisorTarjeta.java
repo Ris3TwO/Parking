@@ -5,16 +5,20 @@
  */
 package views;
 
+import javax.swing.JButton;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+
 /**
  *
  * @author leonardo
  */
-public class Registro_Tarjeta extends javax.swing.JDialog {
+public class VisorTarjeta extends javax.swing.JDialog {
 
     /**
      * Creates new form Registro_Tarjeta
      */
-    public Registro_Tarjeta(java.awt.Frame parent, boolean modal) {
+    public VisorTarjeta(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }
@@ -34,12 +38,12 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
         jLabel5 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jScrollPane4 = new javax.swing.JScrollPane();
-        tlbHistorialDatos1 = new javax.swing.JTable();
+        tlbHistorialTarjeta = new javax.swing.JTable();
         jPanel11 = new javax.swing.JPanel();
         txtNombrePeaton5 = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        btnRegistroPeaton = new javax.swing.JButton();
+        txtBuscaT = new javax.swing.JTextField();
+        btnRegistroTarjeta = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -60,7 +64,7 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
 
         jPanel9.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 820, 30));
 
-        tlbHistorialDatos1.setModel(new javax.swing.table.DefaultTableModel(
+        tlbHistorialTarjeta.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},
                 {null, null},
@@ -72,7 +76,7 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
                 "Codigo Externo", "Codigo Interno"
             }
         ));
-        jScrollPane4.setViewportView(tlbHistorialDatos1);
+        jScrollPane4.setViewportView(tlbHistorialTarjeta);
 
         jPanel9.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 880, 320));
 
@@ -88,28 +92,28 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
         jPanel11.add(txtNombrePeaton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 100, 180, 30));
 
         jLabel12.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        jLabel12.setText("Buscador");
-        jPanel11.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, -1, -1));
+        jLabel12.setText("Buscador Codigo Interno");
+        jPanel11.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 170, -1));
 
-        jTextField1.setText("jTextField1");
-        jPanel11.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 310, 30));
+        txtBuscaT.setToolTipText("Ingrese el  codigo de la tarjeta");
+        jPanel11.add(txtBuscaT, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 310, 30));
 
         pnlPeatones.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 880, 130));
 
-        btnRegistroPeaton.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        btnRegistroPeaton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-20.png"))); // NOI18N
-        btnRegistroPeaton.setText("Registro de Tarjeta");
-        btnRegistroPeaton.setBorder(null);
-        btnRegistroPeaton.setBorderPainted(false);
-        btnRegistroPeaton.setContentAreaFilled(false);
-        btnRegistroPeaton.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-30.png"))); // NOI18N
-        btnRegistroPeaton.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-30.png"))); // NOI18N
-        btnRegistroPeaton.addActionListener(new java.awt.event.ActionListener() {
+        btnRegistroTarjeta.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        btnRegistroTarjeta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-20.png"))); // NOI18N
+        btnRegistroTarjeta.setText("Registro de Tarjeta");
+        btnRegistroTarjeta.setBorder(null);
+        btnRegistroTarjeta.setBorderPainted(false);
+        btnRegistroTarjeta.setContentAreaFilled(false);
+        btnRegistroTarjeta.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-30.png"))); // NOI18N
+        btnRegistroTarjeta.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-30.png"))); // NOI18N
+        btnRegistroTarjeta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnRegistroPeatonActionPerformed(evt);
+                btnRegistroTarjetaActionPerformed(evt);
             }
         });
-        pnlPeatones.add(btnRegistroPeaton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 30, -1, -1));
+        pnlPeatones.add(btnRegistroTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 30, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -135,9 +139,9 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnRegistroPeatonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroPeatonActionPerformed
+    private void btnRegistroTarjetaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroTarjetaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnRegistroPeatonActionPerformed
+    }//GEN-LAST:event_btnRegistroTarjetaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -156,20 +160,21 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Registro_Tarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VisorTarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Registro_Tarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VisorTarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Registro_Tarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VisorTarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Registro_Tarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VisorTarjeta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the dialog */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                Registro_Tarjeta dialog = new Registro_Tarjeta(new javax.swing.JFrame(), true);
+                VisorTarjeta dialog = new VisorTarjeta(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {
@@ -181,8 +186,32 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
         });
     }
 
+    public JButton getBtnRegistroTarjeta() {
+        return btnRegistroTarjeta;
+    }
+
+    public void setBtnRegistroTarjeta(JButton btnRegistroTarjeta) {
+        this.btnRegistroTarjeta = btnRegistroTarjeta;
+    }
+
+    public JTextField getTxtBuscaT() {
+        return txtBuscaT;
+    }
+
+    public void setTxtBuscaT(JTextField txtBuscaT) {
+        this.txtBuscaT = txtBuscaT;
+    }
+
+    public JTable getTlbHistorialTarjeta() {
+        return tlbHistorialTarjeta;
+    }
+
+    public void setTlbHistorialTarjeta(JTable tlbHistorialTarjeta) {
+        this.tlbHistorialTarjeta = tlbHistorialTarjeta;
+    }
+  
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnRegistroPeaton;
+    private javax.swing.JButton btnRegistroTarjeta;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel10;
@@ -190,9 +219,9 @@ public class Registro_Tarjeta extends javax.swing.JDialog {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JPanel pnlPeatones;
-    private javax.swing.JTable tlbHistorialDatos1;
+    private javax.swing.JTable tlbHistorialTarjeta;
+    private javax.swing.JTextField txtBuscaT;
     private javax.swing.JTextField txtNombrePeaton5;
     // End of variables declaration//GEN-END:variables
 }

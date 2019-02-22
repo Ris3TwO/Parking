@@ -35,12 +35,14 @@ public class Temporizador extends TimerTask{
             c.conectarMSQL();
         //    while (stop){
                 d.conectarSQLITE();
+                d.infractores();
                 ResultSet rs= d.consultarEntradas();
                 int puesto=0;
                 String tarjeta;
                 while (rs.next()){
                     puesto=rs.getInt("puesto");
                     tarjeta=rs.getString("tarjeta");
+                    tarjeta=d.buscaTarjeta(tarjeta);
                    if (c.salidas().equals(tarjeta)) {
                         d.salida(puesto);
                         Vista.desocupado(puesto);
